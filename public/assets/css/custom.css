@@ -1,0 +1,24 @@
+.ourServicesBeforeContent{
+    position: absolute;
+    color:white;
+    top: 50%;
+    background: #bb118d9e;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    padding: 17px;
+    opacity: 1;
+  }
+  .tp-gallery__item:hover  .ourServicesBeforeContent {
+
+    visibility: hidden;
+    transition: all 0.4s ease-out 0s;
+    opacity: 0;
+}
+
+  
+  .tp-gallery__item:hover  .tp-gallery__img img  {
+    transform: scale(0.98);
+    transition: all 0.4s ease-out 0s;
+
+  }
