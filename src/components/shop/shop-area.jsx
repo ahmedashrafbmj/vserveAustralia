@@ -45,7 +45,10 @@ const ShopArea = () => {
                 >
                   <div className="tpshopitem__thumb p-relative fix p-relative mb-35">
                     <Link href="/product-details">
-                      <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img}  />
+                      <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />
                     </Link>
                     {item.product_news && (
                       <span className="tpshopitem__product-base">

@@ -75,7 +75,10 @@ const PostBox = () => {
                     {article.img && (
                       <div className="postbox__thumb w-img mb-35">
                         <Link href="/blog-details">
-                          <Image width="100%" height="100%"placeholder="image" alt="vserve" src={article.img}  />
+                          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={article.img}  />
                         </Link>
                       </div>
                     )}
@@ -89,7 +92,10 @@ const PostBox = () => {
                         {article.slider_img.map((img, index) => (
                           <SwiperSlide key={index}>
                             <div className="postbox__slider-item swiper-slide">
-                              <Image width="100%" height="100%"placeholder="image" alt="vserve" src={img.img}  />
+                              <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img}  />
                             </div>
                           </SwiperSlide>
                         ))}
@@ -111,7 +117,10 @@ const PostBox = () => {
                           className="postbox__thumb postbox__video p-relative w-img mb-35"
                         >
                           <Link href="/blog-details">
-                            <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.video_tum} />
+                            <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.video_tum} />
                           </Link>
 
                           <VideoPopup

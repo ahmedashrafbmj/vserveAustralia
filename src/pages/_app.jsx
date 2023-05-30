@@ -1,9 +1,20 @@
+import Loader from "@/common/Loader";
 import "../styles/index.scss";
+import dynamic from 'next/dynamic';
 
-if (typeof window !== "undefined") {
-  require("bootstrap/dist/js/bootstrap");
-}
+const LayoutTwo = dynamic(() => import('@/layout/layout-2'), {
+  ssr: false,
+  loading: () => <Loader/>
+});
+const Wrapper = dynamic(() => import('@/layout/wrapper'), {
+  ssr: false,
+  loading: () => <Loader/>
+});
+// if (typeof window !== "undefined") {
+//   require("bootstrap/dist/js/bootstrap");
+// }
+
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return <Wrapper><LayoutTwo><Component {...pageProps} /></LayoutTwo></Wrapper> ;
 }

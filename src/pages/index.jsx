@@ -1,17 +1,23 @@
-import HomeTwo from "@/components/home/home-2/hometwo";
-import SEO from "@/components/seo";
-import LayoutTwo from "@/layout/layout-2";
-import Wrapper from "@/layout/wrapper";
+import dynamic from 'next/dynamic';
+
 import React from "react";
+import Loader from '@/common/Loader';
+const HomeTwo = dynamic(() => import('@/components/home/home-2/hometwo'), {
+  ssr: false,
+  loading: () =><Loader/>
+});
+const SEO = dynamic(() => import('@/components/seo'), {
+  ssr: false,
+  loading: () =><Loader/>
+});
 
 const index = () => {
   return (
-    <Wrapper>
-      <LayoutTwo>
+   <>
       <SEO pageTitle="Home Two" />
-        <HomeTwo />
-      </LayoutTwo>
-    </Wrapper>
+      <HomeTwo />
+    
+   </>
   );
 };
 

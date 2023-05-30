@@ -24,7 +24,10 @@ const HeaderThree = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/logo/logo.png" />
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/logo.png" />
                 </Link>
               </div>
             </div>
@@ -71,7 +74,10 @@ const HeaderThree = () => {
             <div className="header-customss">
               <div className="header-left-logo pb-80">
                 <Link href="/">
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/logo/sidebar-logo.png" />
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/sidebar-logo.png" />
                 </Link>
               </div>
               <div className="header-left-menu">

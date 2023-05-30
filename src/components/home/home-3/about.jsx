@@ -63,7 +63,10 @@ export default  function About  ()  {
               >
                 <div className="tp-ab-img">
                   <div className="tp-ab-main-img p-relative">
-                    {/* <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                    {/* <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                       src="/assets/img/about/about-bg-07.jpg"
                       alt="about-thumb"
                     /> */}

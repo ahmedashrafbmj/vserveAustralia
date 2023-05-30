@@ -27,7 +27,10 @@ const TeamArea = () => {
                 >
                   <div className="tp-team__thumb fix">
                     <Link href="#">
-                      <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                      <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                     </Link>
                   </div>
                   <div className="tp-team__content">

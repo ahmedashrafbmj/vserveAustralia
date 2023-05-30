@@ -71,7 +71,10 @@ const ProjectDetailsArea = () => {
                   className="tpprothumb mb-120 wow fadeInUp"
                   data-wow-delay=".2s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                     src="/assets/img/gallery/project-01.jpg"
                    
                   />
@@ -126,7 +129,10 @@ const ProjectDetailsArea = () => {
                   className="tpprovideo p-relative mb-115 wow fadeInUp"
                   data-wow-delay=".2s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                     src="/assets/img/gallery/project-02.jpg"
                     
                   />

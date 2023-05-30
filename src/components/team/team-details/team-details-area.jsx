@@ -155,7 +155,10 @@ const TeamDetailsArea = () => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
-                <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                   src="/assets/img/team/team-details-01.jpg"
                   
                 />

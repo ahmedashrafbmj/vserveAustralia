@@ -64,7 +64,10 @@ const About = () => {
                 data-wow-delay=".4s"
               >
                 <div className="about__img">
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve" src={left_img}  />
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={left_img}  />
                   <div className="about__exprience">
                     <h3 className="counter">
                     </h3>

@@ -81,7 +81,10 @@ const Brands = ({ style_2 = false, border_style = false }) => {
                   <div className="swiper-wrapper brand-items">
                     <div className="swiper-slide">
                       <Link href="/">
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                       </Link>
                     </div>
                   </div>

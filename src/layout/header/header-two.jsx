@@ -22,7 +22,15 @@ const HeaderTwo = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/logo/logo.png" />
+                  <Image
+                    placeholder="image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "70%", height: "auto" }}
+                    alt="vserve"
+                    src="/assets/img/logo/logo.png"
+                  />
                 </Link>
               </div>
             </div>
@@ -48,7 +56,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span> 1300-343-481 
+                    <span>Help Desk :</span> 1300-343-481
                   </a>
                 </div>
                 <button
@@ -70,7 +78,15 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-              <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/logo/logo.png"  />
+              <Image
+                placeholder="image"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "80%", height: "auto" }}
+                alt="vserve"
+                src="/assets/img/logo/logo.png"
+              />
             </Link>
           </div>
           <div className="header-menu-box">
@@ -139,7 +155,10 @@ const HeaderTwo = () => {
                             <li>
                               <div className="tpcarticon__item">
                                 <div className="tpcarticon__img">
-                                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                                     src="/assets/img/shop/shop-05.jpg"
                                     alt=""
                                   />
@@ -165,7 +184,10 @@ const HeaderTwo = () => {
                             <li>
                               <div className="tpcarticon__item">
                                 <div className="tpcarticon__img">
-                                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                                     src="/assets/img/shop/shop-09.jpg"
                                     alt=""
                                   />

@@ -15,7 +15,10 @@ const AboutArea = () => {
               >
                 <div className="tp-ab-img d-flex">
                   <div className="tp-ab-main-img p-relative">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                       src="/assets/img/about/about-bg-04.jpg"
                     
                     />
@@ -30,12 +33,18 @@ const AboutArea = () => {
                     </div>
                   </div>
                   <div className="tp-ab-shape d-none d-md-block d-lg-none d-xl-block">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                       className="ab-shape-one"
                       src="/assets/img/about/about-bg-05.jpg"
                       
                     />
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                       className="ab-shape-two"
                       src="/assets/img/about/about-bg-06.jpg"
                   

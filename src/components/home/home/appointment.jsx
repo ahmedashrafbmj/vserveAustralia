@@ -10,7 +10,10 @@ const Appointment = () => {
           <div className="row">
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
               <div className="appoinment-thumb">
-                <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                   src="/assets/img/banner/appoinment-01.jpg"
                 />
               </div>

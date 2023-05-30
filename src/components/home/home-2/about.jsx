@@ -74,7 +74,10 @@ const About = () => {
                   className="about-thumb text-lg-center p-relative ml-85 mb-60 wow fadeInLeft"
                   data-wow-delay=".3s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve" src={about_img}  />
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={about_img}  />
 
                   <div className="about-video">
                     <button
@@ -86,7 +89,10 @@ const About = () => {
                     </button>
                   </div>
                   <div className="about-thumb-shape d-none d-md-block">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve" src={about_thumb}  />
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={about_thumb}  />
                   </div>
                 </div>
               </div>
@@ -134,7 +140,10 @@ const About = () => {
                       <button className="tp-btn-second">{b_btn}</button>
                     </div>
                     <div className="cta-shape d-none d-md-block">
-                      <Image width="100%" height="100%"placeholder="image" alt="vserve" src={b_img}  />
+                      <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={b_img}  />
                     </div>
                   </div>
                 </div>

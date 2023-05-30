@@ -10,7 +10,10 @@ const HeroBanner = () => {
         style={{ backgroundImage: `url("/assets/img/banner/hero-bg-01.jpg")` }}
       >
         <div className="tpherobg">
-          <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/shape/hero-shape-01.png" />
+          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/shape/hero-shape-01.png" />
         </div>
         <div className="container">
           <div className="row">

@@ -217,7 +217,10 @@ const ProductDetailsArea = () => {
                   className="productthumb mb-40 wow fadeInRighLeft"
                   data-wow-delay=".4s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                     src="/assets/img/shop/product-01.jpg"
                     
                   />
@@ -451,7 +454,10 @@ const ProductDetailsArea = () => {
                                 <li key={item.id}>
                                   <div className="comments-box d-flex">
                                     <div className="comments-avatar mr-25">
-                                      <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img}  />
+                                      <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />
                                     </div>
                                     <div className="comments-text">
                                       <div className="comments-top d-sm-flex align-items-start justify-content-between mb-5">
@@ -599,7 +605,10 @@ const ProductDetailsArea = () => {
                     <div className="tpshopitem mb-50">
                       <div className="tpshopitem__thumb p-relative fix mb-35">
                         <Link href="/shop">
-                          <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img}  />
+                          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />
                         </Link>
                         <div className="tpshopitem__thumb-icon">
                           <a href="#">

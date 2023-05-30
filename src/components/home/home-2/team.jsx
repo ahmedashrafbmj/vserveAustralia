@@ -71,7 +71,10 @@ const Team = () => {
                   <div className="swiper-slide">
                     <div className="team-item mb-30">
                       <div className="team-item__thumb mb-40">
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                       </div>
                       <div className="team-item__content">
                         <h5 className="team-item__title mb-15">

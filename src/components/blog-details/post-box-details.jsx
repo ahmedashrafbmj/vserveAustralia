@@ -23,7 +23,10 @@ const PostBoxDetails = () => {
                 <article className="postbox__item format-image mb-50 transition-3">
                   <div className="postbox__thumb w-img mb-30">
                     <Link href="/blog-details">
-                      <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/blog/blog-in-01.jpg"  />
+                      <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/blog/blog-in-01.jpg"  />
                     </Link>
                   </div>
                   <div className="postbox__content">
@@ -109,7 +112,10 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img w-img mb-60">
-                          <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                             src="/assets/img/blog/blog-details-meta-03.jpg"
                             
                           />
@@ -140,7 +146,10 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                             src="/assets/img/blog/blog-details-meta-01.jpg"
                             
                           />
@@ -148,7 +157,10 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                             src="/assets/img/blog/blog-details-meta-02.jpg"
                             
                           />
@@ -195,7 +207,10 @@ const PostBoxDetails = () => {
                       <div className="postbox__comment-box d-flex">
                         <div className="postbox__comment-info">
                           <div className="postbox__comment-avater mr-25">
-                            <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                            <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                               src="/assets/img/blog/comments/comment-1.jpg"
                               alt=""
                             />
@@ -223,7 +238,10 @@ const PostBoxDetails = () => {
                       <div className="postbox__comment-box d-flex">
                         <div className="postbox__comment-info">
                           <div className="postbox__comment-avater mr-25">
-                            <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                            <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                               src="/assets/img/blog/comments/comment-2.jpg"
                               alt=""
                             />

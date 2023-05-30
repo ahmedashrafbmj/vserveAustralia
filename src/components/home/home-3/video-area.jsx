@@ -9,7 +9,10 @@ const VideoArea = () => {
     <>
       <div className="video-area pt-10">
         <div className="video-bg p-relative">
-          <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/banner/tp-video-bg-01.jpg" />
+          <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/banner/tp-video-bg-01.jpg" />
           <div className="video-bg-icon">
             <a
               onClick={() => setIsVideoOpen(true)}

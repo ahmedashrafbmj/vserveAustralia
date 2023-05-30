@@ -38,7 +38,10 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/icon/contact-01.svg" />
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-01.svg" />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Address line</h4>
@@ -54,7 +57,10 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/icon/contact-02.svg"  />
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-02.svg"  />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Phone Number</h4>
@@ -73,7 +79,10 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve" src="/assets/img/icon/contact-03.svg"  />
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-03.svg"  />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Opening Hours</h4>

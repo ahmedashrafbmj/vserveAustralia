@@ -57,7 +57,10 @@ const CartArea = () => {
                         <tr key={item.id}>
                           <td className="product-thumbnail">
                             <Link href="/shop-details">
-                              <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                              <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                             </Link>
                           </td>
                           <td className="product-name">

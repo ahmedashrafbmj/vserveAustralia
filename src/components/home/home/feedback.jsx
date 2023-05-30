@@ -73,7 +73,10 @@ const Feedback = () => {
               <SwiperSlide key={item.id}>
                 <div className="tp-testi p-relative mb-70">
                   <div className="tp-testi__avata">
-                    <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                    <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                   </div>
                   <div className="tp-testi__content text-center">
                     <p>{item.des}</p>

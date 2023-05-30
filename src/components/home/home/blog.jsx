@@ -81,7 +81,10 @@ const Blog = () => {
                   <div className="tp-blog mb-30">
                     <div className="tp-blog__thumb p-relative fix">
                       <a href="#">
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img} />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
                       </a>
                       <div className="tp-blog__date text-center">
                         <h4>{item.blog_date}</h4>

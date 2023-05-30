@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import Image from "next/image";
 
 const hero_slider = [
   {
@@ -148,11 +149,17 @@ const HeroBanner = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img_1} />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_1} />
 
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={item.img_2}  />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_2}  />
                       </div>
                     </div>
                   </div>

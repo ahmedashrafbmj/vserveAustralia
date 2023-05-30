@@ -3,22 +3,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
+import Image from "next/image";
 
 
 
 // ts img
 const ts_img = [
   {
-    img: "assets/img/icon/testi-ava-04.png",
+    img: "/assets/img/icon/testi-ava-04.png",
   },
   {
-    img: "assets/img/icon/testi-ava-05.png",
+    img: "/assets/img/icon/testi-ava-05.png",
   },
   {
-    img: "assets/img/icon/testi-ava-06.png",
+    img: "/assets/img/icon/testi-ava-06.png",
   },
   {
-    img: "assets/img/icon/testi-ava-07.png",
+    img: "/assets/img/icon/testi-ava-07.png",
   },
 ];
 
@@ -145,7 +146,10 @@ const Testimonial = ({ bg_img }) => {
                   >
                     {ts_img.map((img, i) => (
                       <SwiperSlide key={i}>
-                        <Image width="100%" height="100%"placeholder="image" alt="vserve" src={img.img} alt="testi-avata" />
+                        <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img}  />
                       </SwiperSlide>
                     ))}
                   </Swiper>

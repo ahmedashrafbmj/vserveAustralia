@@ -12,7 +12,10 @@ const ServiceDetailsArea = () => {
                   className="services-thumb-img mb-50 wow fadeInLeft"
                   data-wow-delay=".4s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                     src="/assets/img/services/services-thumb-07.jpg"
                     alt="services-thumb"
                   />
@@ -23,7 +26,10 @@ const ServiceDetailsArea = () => {
                   className="services-thumb-img mb-50 wow fadeInRight"
                   data-wow-delay=".4s"
                 >
-                  <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                  <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                     src="/assets/img/services/services-thumb-08.jpg"
                     alt="services-thumb"
                   />
@@ -196,7 +202,10 @@ The NDIS can provide all people with disability with information and connections
           <div className="row">
             <div className="col-md-12">
               {/* <div className="tp-srv-bg mb-70">
-                <Image width="100%" height="100%"placeholder="image" alt="vserve"
+                <Image placeholder="image" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}  alt="vserve"
                   src="/assets/img/services/services-thumb-09.jpg"
                   alt="services-bg"
                 />
