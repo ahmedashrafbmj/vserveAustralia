@@ -145,7 +145,7 @@ const ServiceArea = () => {
 
                 {gallery_content.map((item, index) => (
                   // <SwiperSlide key={item.id}>
-                    <div className=" col-4 tp-gallery__item p-relative mb-70">
+                    <div  key={item.id} className=" col-4 tp-gallery__item p-relative mb-70">
                       <div className="tp-gallery__img p-relative">
                         <Image placeholder="image" width={0}
   height={0}

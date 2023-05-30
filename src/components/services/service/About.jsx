@@ -83,7 +83,7 @@ const About = () => {
                   About Vserve
                 </span>
                 <h3 className="tp-section__title title-white mb-85">
-                  "We Serve With Care "
+                  {"We Serve With Care "}
                 </h3>
               </div>
             </div>

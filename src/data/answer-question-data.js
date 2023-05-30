@@ -59,7 +59,7 @@ Once your NDIS plan has been approved, you may begin contacting providers to beg
     question: "Do I get charged for the services?",
     answer: (
       <>
-        We don't charge clients for the services. Once approved from NDIS/ MyAgedCare, all your services are funded by NDIS.
+        We {"don't"} charge clients for the services. Once approved from {"NDIS/"} MyAgedCare, all your services are funded by NDIS.
       </>
     ),
     accordion_id: "headingFour",

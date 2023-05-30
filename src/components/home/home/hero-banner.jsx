@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 // internal
 import VideoPopup from "@/modals/video-popup";
+import Image from "next/image";
 
 // content
 const content = {
@@ -105,7 +106,7 @@ const HeroBanner = () => {
           <Image placeholder="image" width={0}
   height={0}
   sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/banner/banner-01.png" alt="banner-img" />
+  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/banner/banner-01.png" />
           <div className="banner__video-btn">
             <button
               onClick={() => setIsVideoOpen(true)}

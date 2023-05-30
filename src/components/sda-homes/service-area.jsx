@@ -63,8 +63,8 @@ const ServiceArea = () => {
           <div className="row align-items-end  mb-45">
             <div className="col-lg-7 col-md-12 col-12 ">
               <p>
-                Yes, If you have "an extreme functional impairment" or "very
-                high support needs". <br />
+                Yes, If you have {"an extreme functional impairment"} or 
+              {"very high support needs"}. <br />
                 If you have SDA needs requirement.
                 <br />
                 If SDA is reasonable and necessary for you
