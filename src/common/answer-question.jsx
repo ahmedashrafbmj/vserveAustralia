@@ -1,5 +1,5 @@
 import answer_question_data from "@/data/answer-question-data";
-import React from "react";
+  
 
 const AnswerQuestion = () => {
   return (

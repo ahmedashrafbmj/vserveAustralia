@@ -149,7 +149,7 @@ const About = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <button aria-label="vserve" className="tp-btn-second" aria-label={b_btn}>
+                      <button aria-label="vserve" className="tp-btn-second" >
                         {b_btn}
                       </button>
                     </div>

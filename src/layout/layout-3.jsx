@@ -1,4 +1,4 @@
-import React from "react";
+  
 import FooterThree from "./footer/footer-3";
 import HeaderThree from "./header/header-three";
 

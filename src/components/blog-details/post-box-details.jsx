@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+  
 import BlogSearch from "../blog/blog-search";
 import Category from "../blog/category";
 import RecentPost from "../blog/recent-post";

@@ -1,4 +1,4 @@
-import React from "react";
+  
 import ModalVideo from "react-modal-video";
 
 const VideoPopup = ({

@@ -1,6 +1,6 @@
 import pricing_data from "@/data/pricing-data";
 import Link from "next/link";
-import React from "react";
+  
 
 const PricingArea = ({dark, p_bottom}) => {
   return (

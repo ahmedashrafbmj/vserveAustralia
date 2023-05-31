@@ -9,7 +9,7 @@ const SEO = dynamic(() => import("@/components/seo"), {
   loading: () => <Loader />,
 });
 
-import React from "react";
+  
 
 const index = () => {
   return (

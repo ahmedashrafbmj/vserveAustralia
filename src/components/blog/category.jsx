@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+  
 
 // category_data
 const category_data = [

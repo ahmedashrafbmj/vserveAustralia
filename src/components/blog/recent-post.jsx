@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+  
 
 // recent_post data
 const recent_post = [

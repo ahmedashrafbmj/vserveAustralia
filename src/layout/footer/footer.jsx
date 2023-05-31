@@ -1,7 +1,7 @@
 import SocialLinks from "@/common/social-links";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+  
 
 const footer_content = {
   footer_info: [

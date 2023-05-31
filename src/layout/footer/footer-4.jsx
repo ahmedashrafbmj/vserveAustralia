@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+  
 
 const FooterFour = ({ style_2 = false }) => {
   return (

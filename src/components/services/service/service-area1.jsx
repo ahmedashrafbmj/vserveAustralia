@@ -1,6 +1,6 @@
 import ServiceOneData from "@/data/service-one-data";
 import Link from "next/link";
-import React from "react";
+  
 
 const ServiceArea = () => {
   return (

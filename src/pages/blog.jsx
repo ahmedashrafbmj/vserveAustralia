@@ -1,7 +1,7 @@
 
 import dynamic from "next/dynamic";
 import Loader from '@/common/Loader';
-import React from "react";
+  
 const Blog = dynamic(() => import("@/components/blog"), {
   ssr: false,
   loading: () => <Loader />,

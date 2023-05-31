@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Loader from '@/common/Loader';
-import React from "react";
+  
 const SEO = dynamic(() => import("@/components/contact/contact"), {
   ssr: false,
   loading: () => <Loader />,

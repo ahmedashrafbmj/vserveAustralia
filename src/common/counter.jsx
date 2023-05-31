@@ -1,4 +1,4 @@
-import React from "react";
+  
 import Count from "./count";
 
 //  counter_text;

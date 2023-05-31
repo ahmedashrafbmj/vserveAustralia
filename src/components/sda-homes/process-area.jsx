@@ -1,5 +1,5 @@
 import service_three_data from "@/data/service-three-data";
-import React from "react";
+  
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // process data

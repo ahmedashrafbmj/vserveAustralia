@@ -1,5 +1,5 @@
 import { Progress } from "antd";
-import React from "react";
+  
 import "react-circular-progressbar/dist/styles.css";
 
 const Choose = () => {

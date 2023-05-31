@@ -1,7 +1,7 @@
 import sda_homes_data from "@/data/sda-homes-data";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+  
 
 const ServiceArea = () => {
   return (

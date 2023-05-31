@@ -1,6 +1,6 @@
 import service_data from "@/data/service";
 import Link from "next/link";
-import React from "react";
+  
 
 const Service = () => {
   return (

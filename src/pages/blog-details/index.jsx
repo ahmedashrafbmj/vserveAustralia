@@ -1,4 +1,4 @@
-import React from "react";
+  
 import BlogDetails from "@/components/blog-details/blog-details";
 const SEO = dynamic(() => import("@/components/seo"), {
   ssr: false,
