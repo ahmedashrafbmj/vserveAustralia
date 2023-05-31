@@ -60,21 +60,11 @@ const Appointment = () => {
                         </div>
                       </div>
                       <div className="col-lg-4 col-md-4 col-12">
-                        <div className="visit-btn mt-20">
+                        <div className="visit-btn mt-20 my-2">
                           <button className="tp-btn">Book Now</button>
                         </div>
                       </div>
-                      <div className="col-lg-8 col-md-8 col-12">
-                        <div className="visit-serial mt-45">
-                          <span>
-                            24/7 Emergency Service :
-                            <a href="tel:+0000000">
-                              +0000 0000
-                              {/* <i className="fa-regular fa-arrow-right"></i> */}
-                            </a>
-                          </span>
-                        </div>
-                      </div>
+                 
                     </div>
                   </form>
                 </div>
