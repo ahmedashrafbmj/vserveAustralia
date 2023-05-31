@@ -12,12 +12,14 @@ const Appointment = () => {
           <div className="row align-items-end">
             <div className="col-xl-4 col-lg-12 col-md-12">
               <div className="appoint-thumb">
-                <Image placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                <Image
+                  placeholder="image"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  alt="vserve"
                   src="/assets/img/banner/appoinment-02.png"
-                  
                 />
               </div>
             </div>

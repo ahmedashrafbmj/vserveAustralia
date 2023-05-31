@@ -3,8 +3,9 @@
   src: 
     url("../fonts/flaticon.woff") format("woff"),
     url("../fonts/flaticon.ttf") format("ttf"),
-    /* url("../fonts/flaticon.woff2") format("woff2"), */
+    url("../fonts/flaticon.woff2") format("woff2"),
     url("../fonts/flaticon.eot") format("embedded-opentype");
+    font-display: swap;
 }
 
 i[class^="flaticon-"]:before,
