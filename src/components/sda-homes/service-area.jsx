@@ -90,7 +90,7 @@ const ServiceArea = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="services-thumb-box__thumb fix">
-                    <Image placeholder="image" width={0}
+                    <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />

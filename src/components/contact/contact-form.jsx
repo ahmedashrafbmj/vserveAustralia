@@ -38,7 +38,7 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image placeholder="image" width={0}
+                    <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-01.svg" />
@@ -57,7 +57,7 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image placeholder="image" width={0}
+                    <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-02.svg"  />
@@ -79,7 +79,7 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image placeholder="image" width={0}
+                    <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-03.svg"  />

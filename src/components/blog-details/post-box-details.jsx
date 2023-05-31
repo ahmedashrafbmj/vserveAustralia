@@ -23,7 +23,7 @@ const PostBoxDetails = () => {
                 <article className="postbox__item format-image mb-50 transition-3">
                   <div className="postbox__thumb w-img mb-30">
                     <Link href="/blog-details">
-                      <Image placeholder="image" width={0}
+                      <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/blog/blog-in-01.jpg"  />
@@ -112,7 +112,7 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img w-img mb-60">
-                          <Image placeholder="image" width={0}
+                          <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -146,7 +146,7 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image placeholder="image" width={0}
+                          <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -157,7 +157,7 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image placeholder="image" width={0}
+                          <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -207,7 +207,7 @@ const PostBoxDetails = () => {
                       <div className="postbox__comment-box d-flex">
                         <div className="postbox__comment-info">
                           <div className="postbox__comment-avater mr-25">
-                            <Image placeholder="image" width={0}
+                            <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -238,7 +238,7 @@ const PostBoxDetails = () => {
                       <div className="postbox__comment-box d-flex">
                         <div className="postbox__comment-info">
                           <div className="postbox__comment-avater mr-25">
-                            <Image placeholder="image" width={0}
+                            <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"

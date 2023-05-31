@@ -147,7 +147,7 @@ const ServiceArea = () => {
                   // <SwiperSlide key={item.id}>
                     <div  key={item.id} className=" col-4 tp-gallery__item p-relative mb-70">
                       <div className="tp-gallery__img p-relative">
-                        <Image placeholder="image" width={0}
+                        <Image quality={70} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
@@ -187,7 +187,7 @@ const ServiceArea = () => {
 
       {/* image light box start */}
       {isOpen && (
-        <ImagePopup
+        <Image quality={70}Popup
           images={images}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}
