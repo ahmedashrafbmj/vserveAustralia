@@ -61,7 +61,7 @@ const Appointment = () => {
                       </div>
                       <div className="col-lg-4 col-md-4 col-12">
                         <div className="visit-btn mt-20 my-2">
-                          <button className="tp-btn">Book Now</button>
+                          <button aria-label="vserve" className="tp-btn" >Book Now</button>
                         </div>
                       </div>
                  

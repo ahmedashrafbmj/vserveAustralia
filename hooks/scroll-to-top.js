@@ -26,7 +26,7 @@ const ScrollToTop = () => {
   return (
     <>
       {/* <!-- Scroll-top --> */}
-      <button
+      <button aria-label="vserve"
         onClick={scrollTop}
         className={`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
         data-target="html"

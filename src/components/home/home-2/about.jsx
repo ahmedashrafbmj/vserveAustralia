@@ -74,13 +74,19 @@ const About = () => {
                   className="about-thumb text-lg-center p-relative ml-85 mb-60 wow fadeInLeft"
                   data-wow-delay=".3s"
                 >
-                  <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={about_img}  />
+                  <Image
+                    quality={20}
+                    placeholder="image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt="vserve"
+                    src={about_img}
+                  />
 
                   <div className="about-video">
-                    <button
+                    <button aria-label="vserve"
                       onClick={() => setIsVideoOpen(true)}
                       className="popup-video"
                       href={popup_video}
@@ -89,10 +95,16 @@ const About = () => {
                     </button>
                   </div>
                   <div className="about-thumb-shape d-none d-md-block">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={about_thumb}  />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src={about_thumb}
+                    />
                   </div>
                 </div>
               </div>
@@ -137,13 +149,21 @@ const About = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <button className="tp-btn-second">{b_btn}</button>
+                      <button aria-label="vserve" className="tp-btn-second" aria-label={b_btn}>
+                        {b_btn}
+                      </button>
                     </div>
                     <div className="cta-shape d-none d-md-block">
-                      <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={b_img}  />
+                      <Image
+                        quality={20}
+                        placeholder="image"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        alt="vserve"
+                        src={b_img}
+                      />
                     </div>
                   </div>
                 </div>

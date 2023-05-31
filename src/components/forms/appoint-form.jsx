@@ -31,7 +31,7 @@ const AppointForm = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-12">
           <div className="visit-btn mt-20">
-            <button className="tp-btn">Book Now</button>
+            <button aria-label="vserve" className="tp-btn">Book Now</button>
           </div>
         </div>
         <div className="col-lg-8 col-md-8 col-12">

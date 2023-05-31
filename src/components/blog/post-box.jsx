@@ -101,10 +101,10 @@ const PostBox = () => {
                         ))}
 
                         <div className="postbox-nav">
-                          <button className="postbox-slider-button-next">
+                          <button aria-label="vserve" className="postbox-slider-button-next">
                             <i className="fa-solid fa-chevron-right"></i>
                           </button>
-                          <button className="postbox-slider-button-prev">
+                          <button aria-label="vserve" className="postbox-slider-button-prev">
                             <i className="fa-solid fa-chevron-left"></i>
                           </button>
                         </div>
@@ -128,7 +128,7 @@ const PostBox = () => {
                             setIsVideoOpen={setIsVideoOpen}
                             videoId={item.videoId}
                           />
-                          <button
+                          <button aria-label="vserve"
                             onClick={() => setIsVideoOpen(true)}
                             className="play-btn popup-video"
                           >

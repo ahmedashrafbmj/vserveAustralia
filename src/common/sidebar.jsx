@@ -41,7 +41,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
           isActive ? "tp-sidebar-opened" : ""
         }`}
       >
-        <button
+        <button aria-label="vserve"
           onClick={() => setIsActive(false)}
           className="tpsideinfo__close"
         >
@@ -83,7 +83,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
           <div className="tpsideinfo__content-inputarea-input">
             <form action="#">
               <input type="email" placeholder="Enter Mail" />
-              <button className="tpsideinfo__content-inputarea-input-btn">
+              <button aria-label="vserve" className="tpsideinfo__content-inputarea-input-btn">
                 <i className="fa-solid fa-paper-plane"></i>
               </button>
             </form>

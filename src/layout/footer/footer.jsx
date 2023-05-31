@@ -174,7 +174,7 @@ const Footer = () => {
                   <div className="footer-widget__newsletter p-relative">
                     <form action="#">
                       <input type="email" placeholder="Enter Mail" />
-                      <button className="footer-widget__fw-news-btn">
+                      <button aria-label="vserve" className="footer-widget__fw-news-btn">
                         <i className="fa-solid fa-paper-plane"></i>
                       </button>
                     </form>

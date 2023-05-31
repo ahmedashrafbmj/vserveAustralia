@@ -13,7 +13,7 @@ const BlogSearch = () => {
             <form action="#" onSubmit={handelSubmit}>
               <div className="sidebar__search-input-2 p-relative">
                 <input type="text" placeholder="Search post" />
-                <button type="submit">
+                <button aria-label="vserve" type="submit">
                   <i className="far fa-search"></i>
                 </button>
               </div>

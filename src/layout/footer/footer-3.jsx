@@ -29,7 +29,7 @@ const FooterThree = () => {
                   >
                     <form action="#">
                       <input type="text" placeholder="Enter Mail" />
-                      <button className="footernewsletter__fw-news-btn">
+                      <button aria-label="vserve" className="footernewsletter__fw-news-btn">
                         <i className="fa-solid fa-paper-plane"></i>
                       </button>
                     </form>

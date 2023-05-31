@@ -9,7 +9,7 @@ const AnswerQuestion = () => {
           {answer_question_data.map((item) => (
             <div key={item.id} className="accordion-items">
               <h2 className="accordion-header" id={item.accordion_id}>
-                <button
+                <button aria-label="vserve"
                   className={`accordion-button ${item.collapsed}`}
                   type="button"
                   data-bs-toggle="collapse"

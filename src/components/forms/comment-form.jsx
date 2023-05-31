@@ -37,7 +37,7 @@ const CommentForm = () => {
             </div>
             <div className="col-xxl-12">
               <div className="postbox__comment-btn">
-                <button type="submit" className="tp-btn">
+                <button aria-label="vserve" type="submit" className="tp-btn">
                   Post Comment
                 </button>
               </div>

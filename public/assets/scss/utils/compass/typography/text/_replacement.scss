@@ -59,7 +59,7 @@ $hide-text-direction: left !default;
     overflow: hidden;
   }
   @include for-legacy-browsers((ie: "7"), $critical-usage-threshold) {
-    //Text transform capitalize fixes text-replacement issue when used in a <button> element on ie7
+    //Text transform capitalize fixes text-replacement issue when used in a <button aria-label="vserve"> element on ie7
     text-transform:capitalize;
   }
 }

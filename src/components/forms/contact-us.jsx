@@ -48,7 +48,7 @@ const ContactUs = () => {
             </div>
             <div className="col-lg-12">
               <div className="contactform__input mb-30-btn">
-                <button type="submit" className="tp-btn">
+                <button aria-label="vserve" type="submit" className="tp-btn">
                   Send Massage
                 </button>
               </div>

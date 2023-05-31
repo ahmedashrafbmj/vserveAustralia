@@ -21,7 +21,7 @@ const NewsLetter = () => {
                       type="email"
                       placeholder="info.yourwebmail@gmail.com"
                     />
-                    <button className="newsletter-btn">
+                    <button aria-label="vserve" className="newsletter-btn">
                       Subscribe<i className="fa-solid fa-paper-plane"></i>
                     </button>
                   </form>

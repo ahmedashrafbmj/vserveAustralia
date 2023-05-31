@@ -111,7 +111,7 @@ const NavTab = () => {
         <div className="container">
           <ul className="nav tp-nav-tavs mb-70" id="myTab" role="tablist">
             <li className="nav-item" role="presentation">
-              <button
+              <button aria-label="vserve"
                 className="nav-link active"
                 id="home-tab"
                 data-bs-toggle="tab"
@@ -126,7 +126,7 @@ const NavTab = () => {
               </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button
+              <button aria-label="vserve"
                 className="nav-link"
                 id="profile-tab"
                 data-bs-toggle="tab"
@@ -141,7 +141,7 @@ const NavTab = () => {
               </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button
+              <button aria-label="vserve"
                 className="nav-link"
                 id="contact-tab"
                 data-bs-toggle="tab"

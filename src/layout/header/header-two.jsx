@@ -60,7 +60,7 @@ const HeaderTwo = () => {
                     <span>Help Desk :</span> 1300-343-481
                   </a>
                 </div>
-                <button
+                <button aria-label="vserve"
                   onClick={() => setIsActive(true)}
                   className="tp-menu-toggle"
                 >
@@ -140,7 +140,7 @@ const HeaderTwo = () => {
                 <div className="col-lg-5">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
                     <div className="header-cart-list  d-flex align-items-center justify-content-end mr-50">
-                      {/* <button
+                      {/* <button aria-label="vserve"
                         onClick={() => setIsActive(true)}
                         className="tp-menu-toggle mr-40"
                       >
@@ -148,7 +148,7 @@ const HeaderTwo = () => {
                       </button> */}
 
                       {/* <div className="tp-cart-icon-area">
-                        <button>
+                        <button aria-label="vserve">
                           <i className="fa-solid fa-basket-shopping"></i>
                         </button>
                         <div className="tpcarticon">
