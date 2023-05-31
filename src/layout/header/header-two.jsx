@@ -22,7 +22,7 @@ const HeaderTwo = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <Image quality={20}
+                  <Image quality={10}
                     placeholder="image"
                     width={0}
                     height={0}
@@ -79,7 +79,7 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-            <Image quality={20}
+            <Image quality={10}
                     placeholder="image"
                     width={0}
                     height={0}
