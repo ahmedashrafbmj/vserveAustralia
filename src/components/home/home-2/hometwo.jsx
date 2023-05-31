@@ -49,7 +49,7 @@ const HomeTwo = () => {
       <Gallery />
       <Choose />
       <Appointment />
-      <Brands border_style={true} />
+      {/* <Brands border_style={true} /> */}
       <Team />
       <Testimonial bg_img={true} />
       <Blog />
