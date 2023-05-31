@@ -12,7 +12,7 @@ const Appointment = () => {
           <div className="row align-items-end">
             <div className="col-xl-4 col-lg-12 col-md-12">
               <div className="appoint-thumb">
-                <Image quality={70}
+                <Image quality={50}
                   placeholder="image"
                   width={0}
                   height={0}

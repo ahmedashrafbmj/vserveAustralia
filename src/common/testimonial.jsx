@@ -146,7 +146,7 @@ const Testimonial = ({ bg_img }) => {
                   >
                     {ts_img.map((img, i) => (
                       <SwiperSlide key={i}>
-                        <Image quality={70} placeholder="image" width={0}
+                        <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img}  />

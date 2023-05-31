@@ -182,7 +182,7 @@ const NavTab = () => {
                       </div>
                       {item.img && (
                         <div className="navtabs__shape d-none d-lg-block">
-                          <Image quality={70} placeholder="image" width={0}
+                          <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item?.img}  />
@@ -223,7 +223,7 @@ const NavTab = () => {
                       className={`col-xl-3 col-lg-3 col-md-6 ${img.order}`}
                     >
                       <div className="nabthumb mb-30">
-                        <Image quality={70} placeholder="image" width={0}
+                        <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img} />

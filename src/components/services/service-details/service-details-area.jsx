@@ -13,7 +13,7 @@ const ServiceDetailsArea = () => {
                 className="services-thumb-img mb-50 wow fadeInLeft"
                 data-wow-delay=".4s"
               >
-                <Image quality={70} placeholder="image" width={0}
+                <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -27,7 +27,7 @@ const ServiceDetailsArea = () => {
                 className="services-thumb-img mb-50 wow fadeInRight"
                 data-wow-delay=".4s"
               >
-                <Image quality={70} placeholder="image" width={0}
+                <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -209,7 +209,7 @@ const ServiceDetailsArea = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="tp-srv-bg mb-70">
-                <Image quality={70} placeholder="image" width={0}
+                <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"

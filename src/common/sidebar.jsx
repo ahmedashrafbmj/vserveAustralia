@@ -49,7 +49,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
         </button>
         <div className="tpsideinfo__logo mb-40">
           <Link href="/">
-            <Image quality={70} placeholder="image" width={0}
+            <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/white-logo.png"  />
@@ -100,7 +100,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
                 onClick={() => handleImagePopup(i)}
                 className="popup-image"
               >
-                <Image quality={70} placeholder="image" width={0}
+                <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}/>
@@ -131,7 +131,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
 
       {/* image light box start */}
       {isOpen && (
-        <Image quality={70}Popup
+        <Image quality={50}Popup
           images={img}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}

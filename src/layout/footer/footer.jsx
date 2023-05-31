@@ -67,7 +67,7 @@ const Footer = () => {
                 >
                   <h4 className="footer-widget__title mb-30">
                     <a href="index">
-                      <Image quality={70} placeholder="image" width={0}
+                      <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/white-logo.png" />

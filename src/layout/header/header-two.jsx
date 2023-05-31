@@ -22,7 +22,7 @@ const HeaderTwo = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <Image quality={70}
+                  <Image quality={50}
                     placeholder="image"
                     width={0}
                     height={0}
@@ -79,7 +79,7 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-            <Image quality={70}
+            <Image quality={50}
                     placeholder="image"
                     width={0}
                     height={0}
@@ -156,7 +156,7 @@ const HeaderTwo = () => {
                             <li>
                               <div className="tpcarticon__item">
                                 <div className="tpcarticon__img">
-                                  <Image quality={70} placeholder="image" width={0}
+                                  <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -185,7 +185,7 @@ const HeaderTwo = () => {
                             <li>
                               <div className="tpcarticon__item">
                                 <div className="tpcarticon__img">
-                                  <Image quality={70} placeholder="image" width={0}
+                                  <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"

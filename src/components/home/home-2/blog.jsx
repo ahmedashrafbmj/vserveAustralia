@@ -106,7 +106,7 @@ const Blog = () => {
                 <div className="pb-50">
                   <div className="blog-item">
                     <div className="blog-item__thumb fix">
-                      <Image quality={70} placeholder="image" width={0}
+                      <Image quality={50} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
