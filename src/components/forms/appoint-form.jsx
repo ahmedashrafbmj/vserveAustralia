@@ -38,9 +38,9 @@ const AppointForm = () => {
           <div className="visit-serial mt-45">
             <span>
               24/7 Emergency Service :
-              <a href="tel:+88978897">
-                +88 978 897 6545
-                <i className="fa-regular fa-arrow-right"></i>
+              <a href="tel:+00">
+                00000 0000 0000
+                {/* <i className="fa-regular fa-arrow-right"></i> */}
               </a>
             </span>
           </div>

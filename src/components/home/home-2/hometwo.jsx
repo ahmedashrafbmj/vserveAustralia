@@ -1,16 +1,44 @@
-// import Brands from "@/common/brands";
-// import Counter from "@/common/counter";
-import React from "react";
-import About from "./about";
-import Appointment from "./appointment";
-import Choose from "./choose";
-import Gallery from "./gallery";
-import HeroBanner from "./hero-banner";
-import NewsLetter from "./news-letter";
-import Service from "./service";
-import Team from "./team";
-import Testimonial from "../../../common/testimonial";
-import Blog from "./blog";
+import dynamic from "next/dynamic";
+import Loader from "@/common/Loader";
+
+const Brands = dynamic(() => import("@/common/brands"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const About = dynamic(() => import("./about"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Appointment = dynamic(() => import("./appointment"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Choose = dynamic(() => import("./choose"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Gallery = dynamic(() => import("./gallery"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const HeroBanner = dynamic(() => import("./hero-banner"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const NewsLetter = dynamic(() => import("./news-letter"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Service = dynamic(() => import("./service"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Team = dynamic(() => import("./team"), { ssr: false, loading: () => <Loader /> });
+const Testimonial = dynamic(() => import("../../../common/testimonial"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const Blog = dynamic(() => import("./blog"), { ssr: false, loading: () => <Loader /> });
 
 const HomeTwo = () => {
   return (
@@ -19,10 +47,9 @@ const HomeTwo = () => {
       <About />
       <Service />
       <Gallery />
-      {/* <Counter cls="pt-80 pb-100" /> */}
       <Choose />
       <Appointment />
-      {/* <Brands border_style={true} /> */}
+      <Brands border_style={true} />
       <Team />
       <Testimonial bg_img={true} />
       <Blog />

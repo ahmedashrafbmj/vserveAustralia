@@ -1,10 +1,11 @@
 
-import React from "react";
-import AboutArea from "./about-area";
-import Banner from "./banner";
-import Specialists from "@/common/specialists";
-import NavTab from "@/common/nav-tab";
-import Team from "@/common/team";
+import dynamic from "next/dynamic";
+import Loader from '@/common/Loader';
+const AboutArea  = dynamic(()=>import("./about-area"),{ssr:false,loading:<Loader />})
+const Banner  = dynamic(()=>import("./banner"),{ssr:false,loading:<Loader />})
+const Specialists  = dynamic(()=>import("@/common/specialists"),{ssr:false,loading:<Loader />})
+const NavTab  = dynamic(()=>import("@/common/nav-tab"),{ssr:false,loading:<Loader />})
+const Team  = dynamic(()=>import("@/common/team"),{ssr:false,loading:<Loader />})
 
 const About = () => {
   return (
