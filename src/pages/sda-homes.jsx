@@ -1,4 +1,3 @@
-import Sdahomes from "@/components/sda-homes";
 import dynamic from "next/dynamic";
 import Loader from '@/common/Loader';
 const Sdahomes = dynamic(() => import("@/components/sda-homes"), {

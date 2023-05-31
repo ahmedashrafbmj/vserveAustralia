@@ -7,6 +7,8 @@ const SEO = dynamic(() => import("@/components/seo"), {
 
 import Wrapper from "@/layout/wrapper";
 import LayoutTwo from "@/layout/layout-2";
+import Loader from "@/common/Loader";
+import dynamic from "next/dynamic";
 const index = () => {
   return (
     <Wrapper>
