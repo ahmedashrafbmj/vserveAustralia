@@ -5,7 +5,6 @@ import useSticky from "hooks/use-sticky";
 import Sidebar from "@/common/sidebar";
 import Image from "next/image";
 
-
 const Header = () => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
@@ -23,10 +22,15 @@ const Header = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <Image placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/logo.png"  />
+                  <Image
+                    placeholder="image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt="vserve"
+                    src="/assets/img/logo/logo.png"
+                  />
                 </Link>
               </div>
             </div>
@@ -79,10 +83,15 @@ const Header = () => {
               <div className="col-xxl-2 col-lg-3">
                 <div className="logo">
                   <Link href="/">
-                    <Image placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/logo.png" />
+                    <Image
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src="/assets/img/logo/logo.png"
+                    />
                   </Link>
                 </div>
               </div>
