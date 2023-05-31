@@ -1,8 +1,9 @@
 @font-face {
   font-family: "flaticon";
-  src: url("../fonts/flaticon.woff2") format("woff2"),
+  src: 
     url("../fonts/flaticon.woff") format("woff"),
     url("../fonts/flaticon.ttf") format("ttf"),
+    /* url("../fonts/flaticon.woff2") format("woff2"), */
     url("../fonts/flaticon.eot") format("embedded-opentype");
 }
 

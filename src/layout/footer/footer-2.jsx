@@ -27,8 +27,8 @@ const FooterTwo = () => {
                       </span>
                       <p>
                         Nam eget dui vel quam sodales semper quis porttitor
-                        <br /> tortor. Vivamus quis ex nulla ...Nam eget dui vel
-                        quam <br /> sodales semper quis porttitor tortor.
+                        tortor.</p> <p> Vivamus quis ex nulla ...Nam eget dui vel
+                        quam  sodales semper quis porttitor tortor.
                       </p>
                     </div>
                   </div>
