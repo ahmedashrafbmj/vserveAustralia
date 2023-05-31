@@ -1,17 +1,23 @@
 import Sdahomes from "@/components/sda-homes";
-import SEO from "@/components/seo";
-import LayoutTwo from "@/layout/layout-2";
-import Wrapper from "@/layout/wrapper";
+import dynamic from "next/dynamic";
+import Loader from '@/common/Loader';
+const Sdahomes = dynamic(() => import("@/components/sda-homes"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const SEO = dynamic(() => import("@/components/seo"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+
 import React from "react";
 
 const index = () => {
   return (
-    <Wrapper>
-      <LayoutTwo>
-        <SEO pageTitle="SDA HOMES" />
-        <Sdahomes />
-      </LayoutTwo>
-    </Wrapper>
+    <>
+      <SEO pageTitle="SDA HOMES" />
+      <Sdahomes />
+    </>
   );
 };
 

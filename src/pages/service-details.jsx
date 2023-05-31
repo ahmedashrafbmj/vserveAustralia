@@ -1,14 +1,21 @@
-import SEO from "@/components/seo";
-import ServiceDetails from "@/components/services/service-details/service-details";
-import Wrapper from "@/layout/wrapper";
+import dynamic from "next/dynamic";
+import Loader from '@/common/Loader';
 import React from "react";
+const SEO = dynamic(() => import("@/components/seo"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+const ServiceDetails = dynamic(() => import("@/components/services/service-details/service-details"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
 
 const index = () => {
   return (
-    <Wrapper>
+    <>
       <SEO pageTitle="Service Details" />
       <ServiceDetails />
-    </Wrapper>
+    </>
   );
 };
 

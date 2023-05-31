@@ -1,6 +1,10 @@
 import React from "react";
 import BlogDetails from "@/components/blog-details/blog-details";
-import SEO from "@/components/seo";
+const SEO = dynamic(() => import("@/components/seo"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+
 import Wrapper from "@/layout/wrapper";
 import LayoutTwo from "@/layout/layout-2";
 const index = () => {

@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-
 import React from "react";
 import Loader from '@/common/Loader';
 const HomeTwo = dynamic(() => import('@/components/home/home-2/hometwo'), {

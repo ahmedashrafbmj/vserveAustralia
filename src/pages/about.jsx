@@ -1,18 +1,22 @@
-import About from "@/components/about/about";
-import SEO from "@/components/seo";
-import LayoutTwo from "@/layout/layout-2";
-import Wrapper from "@/layout/wrapper";
+import dynamic from "next/dynamic";
+import Loader from '@/common/Loader';
 import React from "react";
+const SEO = dynamic(() => import("@/components/seo"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
+
+const About = dynamic(() => import("@/components/about/about"), {
+  ssr: false,
+  loading: () => <Loader />,
+});
 
 const about = () => {
   return (
-    <Wrapper>
-      <LayoutTwo>
-
+    <>
       <SEO pageTitle="About" />
       <About />
-      </LayoutTwo>
-    </Wrapper>
+    </>
   );
 };
 
