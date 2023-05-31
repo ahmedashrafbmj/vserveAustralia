@@ -43,7 +43,7 @@ const RecentPost = () => {
               >
                 <div className="rc__post-thumb">
                   <Link href="/blog-details">
-                    <Image quality={50} placeholder="image" width={0}
+                    <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />

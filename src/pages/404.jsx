@@ -8,7 +8,7 @@ const Error = () => {
       <div className="container">
         <div className="error_page">
           <Link href="/">
-            <Image quality={50}
+            <Image quality={20}
               placeholder="image"
               width={0}
               height={0}

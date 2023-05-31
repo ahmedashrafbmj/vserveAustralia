@@ -149,14 +149,14 @@ const HeroBanner = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
-                        <Image quality={50} placeholder="image" width={0}
+                        <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_1} />
 
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
-                        <Image quality={50} placeholder="image" width={0}
+                        <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_2}  />

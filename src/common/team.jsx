@@ -82,7 +82,7 @@ const Team = () => {
                     <div className="tp-team mb-50">
                       <div className="tp-team__thumb fix">
                         <a href="#">
-                          <Image quality={50} placeholder="image" width={0}
+                          <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />

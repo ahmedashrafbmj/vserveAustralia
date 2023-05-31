@@ -15,7 +15,7 @@ const AboutArea = () => {
               >
                 <div className="tp-ab-img d-flex">
                   <div className="tp-ab-main-img p-relative">
-                    <Image quality={50} placeholder="image" width={0}
+                    <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -33,7 +33,7 @@ const AboutArea = () => {
                     </div>
                   </div>
                   <div className="tp-ab-shape d-none d-md-block d-lg-none d-xl-block">
-                    <Image quality={50} placeholder="image" width={0}
+                    <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"
@@ -41,7 +41,7 @@ const AboutArea = () => {
                       src="/assets/img/about/about-bg-05.jpg"
                       
                     />
-                    <Image quality={50} placeholder="image" width={0}
+                    <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve"

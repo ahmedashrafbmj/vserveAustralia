@@ -74,7 +74,7 @@ const Gallery = () => {
               {gallery_content_data.map((item) => (
                 <div key={item.id} className={item.class}>
                   <div className="gallery-item p-relative mb-30">
-                    <Image quality={50} placeholder="image" width={0}
+                    <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
