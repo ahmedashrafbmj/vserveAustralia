@@ -50,7 +50,7 @@ const HomeTwo = () => {
       <Choose />
       <Appointment />
       {/* <Brands border_style={true} /> */}
-      <Team />
+      {/* <Team /> */}
       <Testimonial bg_img={true} />
       <Blog />
       <NewsLetter />
