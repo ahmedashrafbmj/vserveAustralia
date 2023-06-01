@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const social_links = [
   {
     link: "https://www.youtube.com/",

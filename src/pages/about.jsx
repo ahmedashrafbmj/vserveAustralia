@@ -15,7 +15,7 @@ const about = () => {
   return (
     <>
       <SEO pageTitle="About" />
-      <Link aria-label="Vserve"bout />
+      <About />
     </>
   );
 };

@@ -206,6 +206,7 @@ const ServiceArea = () => {
         <Image
           quality={20}
           Popup
+          alt="Vserve"
           images={images}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}
