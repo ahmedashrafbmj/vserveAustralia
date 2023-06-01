@@ -34,7 +34,7 @@ const MobileMenus = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link aria-label="Vserve"
+                  <a aria-label="Vserve"
                     className={`mean-expand ${
                       navTitle === menu.title ? "mean-clicked" : ""
                     }`}
@@ -43,7 +43,7 @@ const MobileMenus = () => {
                     style={{ fontSize: "18px", cursor: "pointer" }}
                   >
                     <i className="fal fa-plus"></i>
-                  </Link>
+                  </a>
                 </li>
               )}
               {!menu.has_dropdown && (

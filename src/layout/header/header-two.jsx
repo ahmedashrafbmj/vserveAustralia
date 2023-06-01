@@ -21,7 +21,7 @@ const HeaderTwo = () => {
           <div className="row align-items-center">
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
-                <Link aria-label="Vserve" href="/">
+                <Link aria-label="vserve" href="/">
                   <Image quality={10}
                     placeholder="image"
                     width={0}
@@ -30,7 +30,6 @@ const HeaderTwo = () => {
                     style={{ width: "70%", height: "auto" }}
                     alt="vserve"
                     src="/assets/img/logo/logo.png"
-                    priority={true}
 
                   />
                 </Link>
@@ -39,7 +38,7 @@ const HeaderTwo = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel: 1300-343-481">
+                  <a className="tp-bt-btn" href="tel: 1300-343-481">
                     <svg
                       width="14"
                       height="19"
@@ -59,7 +58,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span> 1300-343-481
-                  </Link>
+                  </a>
                 </div>
                 <button aria-label="vserve"
                   onClick={() => setIsActive(true)}
@@ -79,7 +78,7 @@ const HeaderTwo = () => {
           id="header-sticky"
         >
           <div className="header-logo-box">
-            <Link aria-label="Vserve" href="/">
+            <Link aria-label="vserve" href="/">
             <Image quality={10}
                     placeholder="image"
                     width={0}
@@ -87,7 +86,6 @@ const HeaderTwo = () => {
                     sizes="100vw"
                     style={{ width: "70%", height: "auto" }}
                     alt="vserve"
-                    priority={true}
                     src="/assets/img/logo/logo.png"
                   />
             </Link>
@@ -116,7 +114,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span>
-                    <Link aria-label="Vserve" href="tel: 1300-343-481"> 1300-343-481 </Link>
+                    <a href="tel: 1300-343-481"> 1300-343-481 </a>
                   </div>
                 </div>
                 <div className="col-lg-8">
@@ -168,7 +166,7 @@ const HeaderTwo = () => {
                                 </div>
                                 <div className="tpcarticon__content">
                                   <span className="tpcarticon__content-title">
-                                    <Link aria-label="Vserve" href="/shop">Stethoscope Superb</Link>
+                                    <Link href="/shop">Stethoscope Superb</Link>
                                   </span>
                                   <div className="tpcarticon__cart-price">
                                     <span className="new">$162.8</span>
@@ -178,9 +176,9 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                                 <div className="tpcarticon__del">
-                                  <Link aria-label="Vserve" href="#">
+                                  <a href="#">
                                     <i className="far fa-trash-alt"></i>
-                                  </Link>
+                                  </a>
                                 </div>
                               </div>
                             </li>
@@ -197,7 +195,7 @@ const HeaderTwo = () => {
                                 </div>
                                 <div className="tpcarticon__content">
                                   <span className="tpcarticon__content-title">
-                                    <Link aria-label="Vserve" href="/shop">Sphygmomanometer</Link>
+                                    <Link href="/shop">Sphygmomanometer</Link>
                                   </span>
                                   <div className="tpcarticon__cart-price">
                                     <span className="new">$139.9</span>
@@ -207,9 +205,9 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                                 <div className="tpcarticon__del">
-                                  <Link aria-label="Vserve" href="#">
+                                  <a href="#">
                                     <i className="far fa-trash-alt"></i>
-                                  </Link>
+                                  </a>
                                 </div>
                               </div>
                             </li>
@@ -221,8 +219,8 @@ const HeaderTwo = () => {
                             </li>
                             <li>
                               <div className="tpcarticon__checkout-link">
-                                <Link aria-label="Vserve" href="/cart">Shopping Cart</Link>
-                                <Link aria-label="Vserve" className="sec-red-btn" href="/checkout">
+                                <Link href="/cart">Shopping Cart</Link>
+                                <Link className="sec-red-btn" href="/checkout">
                                   Checkout
                                 </Link>
                               </div>
@@ -231,7 +229,7 @@ const HeaderTwo = () => {
                         </div>
                       </div> */}
                     </div>
-                    <Link aria-label="Vserve" className="header-bottom-btn" href="/about">
+                    <Link aria-label="vserve" className="header-bottom-btn" href="/about">
                       Book Appointment
                     </Link>
                   </div>

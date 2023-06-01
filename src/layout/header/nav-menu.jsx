@@ -9,7 +9,7 @@ const NavMenu = ({num=false}) => {
         {menu_data.map((menu, index) =>
           menu.has_dropdown ? (
             <li key={menu.id} className="has-dropdown">
-              <Link aria-label="Vserve" className={`${menu?.active}`} href={menu.link}>
+              <Link className={`${menu?.active}`} href={menu.link}>
                 {num && index <= 9
                   ? `0${index + 1 + "."}`
                   : num && index + 1 + "."}
@@ -19,7 +19,7 @@ const NavMenu = ({num=false}) => {
                 <ul className="sub-menu">
                   {menu.sub_menus.map((sub_m, i) => (
                     <li key={i}>
-                      <Link aria-label="Vserve" href={sub_m.link}>{sub_m.title}</Link>
+                      <Link href={sub_m.link}>{sub_m.title}</Link>
                     </li>
                   ))}
                 </ul>
@@ -27,7 +27,7 @@ const NavMenu = ({num=false}) => {
             </li>
           ) : (
             <li key={menu.id}>
-              <Link aria-label="Vserve" href={menu.link}>
+              <Link href={menu.link}>
                 {num && index <= 9
                   ? `0${index + 1 + "."}`
                   : num && index + 1 + "."}

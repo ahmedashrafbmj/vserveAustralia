@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 const FooterFour = ({ style_2 = false }) => {
   return (
@@ -21,9 +20,16 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__content mb-95">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <Link aria-label="Vserve" href="tel:61383766284">000 000 000</Link>
+                        <Link aria-label="Vserve" href="tel:61383766284">
+                          000 000 000
+                        </Link>
                       </h4>
-                      <Link aria-label="Vserve" href="mailto:noreply@address.com">noreply@address.com</Link>
+                      <Link
+                        aria-label="Vserve"
+                        href="mailto:noreply@address.com"
+                      >
+                        noreply@address.com
+                      </Link>
                     </div>
                     <div className="tp-footer-widget__sub-sec">
                       <span className="tp-footer-widget__sub-title mb-5">
@@ -48,22 +54,34 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
                         <li>
-                          <Link aria-label="Vserve" href="/contact">Contact us</Link>
+                          <Link aria-label="Vserve" href="/contact">
+                            Contact us
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="/about">Help & About us</Link>
+                          <Link aria-label="Vserve" href="/about">
+                            Help & About us
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="/contact">Shipping & Returns</Link>
+                          <Link aria-label="Vserve" href="/contact">
+                            Shipping & Returns
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="/contact">Refund Policy</Link>
+                          <Link aria-label="Vserve" href="/contact">
+                            Refund Policy
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="/about">About us</Link>
+                          <Link aria-label="Vserve" href="/about">
+                            About us
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="/services-details">Services</Link>
+                          <Link aria-label="Vserve" href="/services-details">
+                            Services
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -92,37 +110,59 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__links">
                       <ul>
                         <li>
-                          <Link aria-label="Vserve" href="#">Orders</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Orders
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Downloads</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Downloads
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Shipping & Returns</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Shipping & Returns
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Addresses</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Addresses
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Account details</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Account details
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Logout</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Logout
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Lost password</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Lost password
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Privacy</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Privacy
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Policy</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Policy
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Careers</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Careers
+                          </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="#">Support</Link>
+                          <Link aria-label="Vserve" href="#">
+                            Support
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -140,12 +180,18 @@ const FooterFour = ({ style_2 = false }) => {
                       <ul>
                         <li>address here </li>
                         <li>
-                          <Link aria-label="Vserve" href="tel:(+880)15569569365">
+                          <Link
+                            aria-label="Vserve"
+                            href="tel:(+880)15569569365"
+                          >
                             000 000 000
                           </Link>
                         </li>
                         <li>
-                          <Link aria-label="Vserve" href="mailto:support@mail.com">
+                          <Link
+                            aria-label="Vserve"
+                            href="mailto:support@mail.com"
+                          >
                             support@mail.com
                           </Link>
                         </li>
@@ -181,10 +227,11 @@ const FooterFour = ({ style_2 = false }) => {
                 <div className="col-xl-6 col-lg-6 col-md-12 col-12">
                   <div className="footer-widget__copyright copyright-white">
                     <span>
-                     
                       © Copyright © {new Date().getFullYear()}
-                      <Link aria-label="Vserve" href="index">Vserve</Link>.
-                      <i> All Rights Reserved Copyright</i>
+                      <Link aria-label="Vserve" href="/">
+                        Vserve
+                      </Link>
+                      .<i> All Rights Reserved Copyright</i>
                     </span>
                   </div>
                 </div>
@@ -192,13 +239,19 @@ const FooterFour = ({ style_2 = false }) => {
                   <div className="footer-widget__copyright-info info-direction">
                     <ul className="d-flex align-items-center">
                       <li>
-                        <Link aria-label="Vserve" href="#">Terms and conditions</Link>
+                        <Link aria-label="Vserve" href="#">
+                          Terms and conditions
+                        </Link>
                       </li>
                       <li>
-                        <Link aria-label="Vserve" href="#">Privacy policy</Link>
+                        <Link aria-label="Vserve" href="#">
+                          Privacy policy
+                        </Link>
                       </li>
                       <li>
-                        <Link aria-label="Vserve" href="#">Pricing</Link>
+                        <Link aria-label="Vserve" href="#">
+                          Pricing
+                        </Link>
                       </li>
                     </ul>
                   </div>

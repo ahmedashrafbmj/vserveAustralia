@@ -1,7 +1,6 @@
 import SocialLinks from "@/common/social-links";
 import Image from "next/image";
 import Link from "next/link";
-  
 
 const footer_content = {
   footer_info: [
@@ -47,7 +46,10 @@ const footer_content = {
   copy_right_text: (
     <>
       © Copyright © {new Date().getFullYear()}
-      <Link aria-label="Vserve" href="/">Vserve</Link>.<i> All Rights Reserved Copyright</i>
+      <Link aria-label="Vserve" href="/">
+        Vserve
+      </Link>
+      .<i> All Rights Reserved Copyright</i>
     </>
   ),
 };
@@ -66,11 +68,17 @@ const Footer = () => {
                   data-wow-delay=".2s"
                 >
                   <h4 className="footer-widget__title mb-30">
-                    <Link aria-label="Vserve" href="index">
-                      <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/white-logo.png" />
+                    <Link aria-label="Vserve" href="/">
+                      <Image
+                        quality={20}
+                        placeholder="image"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        alt="vserve"
+                        src="/assets/img/logo/white-logo.png"
+                      />
                     </Link>
                   </h4>
                   <p>
@@ -83,27 +91,30 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              {
-                footer_info.map(item =>  <div key={item.id} className="col-xl-3 col-lg-4 col-md-6">
-                <div
-                  className={`footer-widget ${item.cls} mb-50 wow fadeInUp`}
-                  data-wow-delay=".4s"
-                >
-                  <h4 className="footer-widget__title mb-20">{item.title}</h4>
-                  <div className="footer-widget__links">
-                    <ul>
-
-                      {
-                        item.links.map((link, i) => <li key={i}>
-                        <Link aria-label="Vserve" href={`${link?.link ? link.link : "/"}`}>{link.name}</Link>
-                      </li> )
-                      }
-                    
-                    </ul>
+              {footer_info.map((item) => (
+                <div key={item.id} className="col-xl-3 col-lg-4 col-md-6">
+                  <div
+                    className={`footer-widget ${item.cls} mb-50 wow fadeInUp`}
+                    data-wow-delay=".4s"
+                  >
+                    <h4 className="footer-widget__title mb-20">{item.title}</h4>
+                    <div className="footer-widget__links">
+                      <ul>
+                        {item.links.map((link, i) => (
+                          <li key={i}>
+                            <Link
+                              aria-label="Vserve"
+                              href={`${link?.link ? link.link : "/"}`}
+                            >
+                              {link.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>)
-              }
+              ))}
               {/* <div className="col-xl-3 col-lg-4 col-md-6">
                 <div
                   className="footer-widget footer-col-2 mb-50 wow fadeInUp"
@@ -174,7 +185,10 @@ const Footer = () => {
                   <div className="footer-widget__newsletter p-relative">
                     <form action="#">
                       <input type="email" placeholder="Enter Mail" />
-                      <button aria-label="vserve" className="footer-widget__fw-news-btn">
+                      <button
+                        aria-label="vserve"
+                        className="footer-widget__fw-news-btn"
+                      >
                         <i className="fa-solid fa-paper-plane"></i>
                       </button>
                     </form>
@@ -196,13 +210,19 @@ const Footer = () => {
                 <div className="footer-widget__copyright-info info-direction">
                   <ul className="d-flex align-items-center">
                     <li>
-                      <Link aria-label="Vserve" href="#">Terms and conditions</Link>
+                      <Link aria-label="Vserve" href="#">
+                        Terms and conditions
+                      </Link>
                     </li>
                     <li>
-                      <Link aria-label="Vserve" href="#">Privacy policy</Link>
+                      <Link aria-label="Vserve" href="#">
+                        Privacy policy
+                      </Link>
                     </li>
                     <li>
-                      <Link aria-label="Vserve" href="shop">Pricing</Link>
+                      <Link aria-label="Vserve" href="shop">
+                        Pricing
+                      </Link>
                     </li>
                   </ul>
                 </div>

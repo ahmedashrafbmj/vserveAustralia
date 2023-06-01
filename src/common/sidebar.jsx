@@ -104,6 +104,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
                 style={{ cursor: "pointer" }}
                 onClick={() => handleImagePopup(i)}
                 className="popup-image"
+                href="#"
               >
                 <Image
                   quality={20}

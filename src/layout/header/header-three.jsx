@@ -11,7 +11,6 @@ const HeaderThree = () => {
 
   return (
     <>
-      
       {/* <!-- tp-mobile-header-area start --> */}
       <div
         id="header-mob-sticky"
@@ -24,17 +23,27 @@ const HeaderThree = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link aria-label="Vserve" href="/">
-                  <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/logo.png" />
+                  <Image
+                    quality={20}
+                    placeholder="image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt="vserve"
+                    src="/assets/img/logo/logo.png"
+                  />
                 </Link>
               </div>
             </div>
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
+                  <Link
+                    aria-label="Vserve"
+                    className="tp-bt-btn"
+                    href="tel:123456"
+                  >
                     <svg
                       width="14"
                       height="19"
@@ -56,7 +65,8 @@ const HeaderThree = () => {
                     <span>Help Desk :</span>+91 590 088 55
                   </Link>
                 </div>
-                <button aria-label="vserve"
+                <button
+                  aria-label="vserve"
                   onClick={() => setIsActive(true)}
                   className="tp-menu-toggle"
                 >
@@ -74,10 +84,16 @@ const HeaderThree = () => {
             <div className="header-customss">
               <div className="header-left-logo pb-80">
                 <Link aria-label="Vserve" href="/">
-                  <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/sidebar-logo.png" />
+                  <Image
+                    quality={20}
+                    placeholder="image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt="vserve"
+                    src="/assets/img/logo/sidebar-logo.png"
+                  />
                 </Link>
               </div>
               <div className="header-left-menu">
@@ -87,7 +103,9 @@ const HeaderThree = () => {
               </div>
               <div className="header-left-contact">
                 <span>Make a Call</span>
-                <Link aria-label="Vserve" href="tel:+9159008855">+9159008855</Link>
+                <Link aria-label="Vserve" href="tel:+9159008855">
+                  +9159008855
+                </Link>
               </div>
             </div>
           </header>

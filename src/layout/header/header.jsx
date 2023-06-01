@@ -37,7 +37,7 @@ const Header = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
+                  <a aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
                     <svg
                       width="14"
                       height="19"
@@ -57,7 +57,7 @@ const Header = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span>+91 590 088 55
-                  </Link>
+                  </a>
                 </div>
                 <button aria-label="vserve"
                   onClick={() => setIsActive(true)}
@@ -104,7 +104,7 @@ const Header = () => {
               </div>
               <div className="col-xxl-3 col-lg-3 d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner">
-                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
+                  <a aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
                     <svg
                       width="14"
                       height="19"
@@ -124,7 +124,7 @@ const Header = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span>+91 590 088 55
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
