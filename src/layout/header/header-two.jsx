@@ -27,6 +27,7 @@ const HeaderTwo = () => {
                     width={0}
                     height={0}
                     sizes="100vw"
+                    priority={true}
                     style={{ width: "70%", height: "auto" }}
                     alt="vserve"
                     src="/assets/img/logo/logo.png"
@@ -86,6 +87,7 @@ const HeaderTwo = () => {
                     sizes="100vw"
                     style={{ width: "70%", height: "auto" }}
                     alt="vserve"
+                    priority={true}
                     src="/assets/img/logo/logo.png"
                   />
             </Link>
