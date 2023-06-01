@@ -38,6 +38,7 @@ const Choose = () => {
                       height={165}
                       strokeWidth={3.2}
                       style={{ fontSize: 33 }}
+                      aria-label="Vserve"
                     />
                    
                   </div>
@@ -60,6 +61,7 @@ const Choose = () => {
                     strokeWidth={3.2}
                     strokeColor={"#F72A75"}
                     style={{ fontSize: 33 }}
+                    aria-label="Vserve"
                   />
                   
                 </div>
@@ -80,6 +82,7 @@ const Choose = () => {
                     strokeWidth={3.2}
                     strokeColor={"#42BFFF"}
                     style={{ fontSize: 33 }}
+                    aria-label="Vserve"
                   />
                   
                 </div>
@@ -100,6 +103,7 @@ const Choose = () => {
                     strokeWidth={3.2}
                     strokeColor={"#10D0A1"}
                     fontSize={133}
+                    aria-label="Vserve"
                   />
                  
                 </div>
