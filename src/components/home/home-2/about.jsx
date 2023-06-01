@@ -86,7 +86,8 @@ const About = () => {
                   />
 
                   <div className="about-video">
-                    <button aria-label="vserve"
+                    <button
+                      aria-label="vserve"
                       onClick={() => setIsVideoOpen(true)}
                       className="popup-video"
                       href={popup_video}
@@ -122,7 +123,7 @@ const About = () => {
                     <p className=" mr-20 mb-35">{dex_2}</p>
                   </div>
                   <div className="about-content__btn">
-                    <Link href="/about" className="tp-btn">
+                    <Link aria-label="Vserve" href="/about" className="tp-btn">
                       {btn}
                     </Link>
                   </div>
@@ -149,7 +150,7 @@ const About = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <button aria-label="vserve" className="tp-btn-second" >
+                      <button aria-label="vserve" className="tp-btn-second">
                         {b_btn}
                       </button>
                     </div>

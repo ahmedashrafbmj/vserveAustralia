@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 // choose data
 const choose = [
@@ -129,7 +128,7 @@ const About = () => {
               <div className="tp-choose-option">
                 <span>
                   Laboratories Used For Scientific Research :
-                  <Link href="/">
+                  <Link aria-label="Vserve" href="/">
                     Take Many Forms<i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </span>

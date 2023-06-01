@@ -1,14 +1,13 @@
 import Link from "next/link";
-  
+
 import ContactUs from "../forms/contact-us";
 import Image from "next/image";
-
 
 // contact_info
 const contact_info = {
   address: (
     <>
-     VSERVE AUSTRALIA DISABILITY CARE , NSW 2000,  <br /> AUSTRALIA 
+      VSERVE AUSTRALIA DISABILITY CARE , NSW 2000, <br /> AUSTRALIA
     </>
   ),
   phone_1: "1300-343-481",
@@ -38,15 +37,23 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-01.svg" />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src="/assets/img/icon/contact-01.svg"
+                    />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Address line</h4>
                     <span>
-                      <Link href="/contact">{address}</Link>
+                      <Link aria-label="Vserve" href="/contact">
+                        {address}
+                      </Link>
                     </span>
                   </div>
                 </div>
@@ -57,18 +64,28 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-02.svg"  />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src="/assets/img/icon/contact-02.svg"
+                    />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Phone Number</h4>
                     <span>
-                      <a href={`tel:${phone_1}`}>{phone_1}</a>
+                      <Link aria-label="Vserve" href={`tel:${phone_1}`}>
+                        {phone_1}
+                      </Link>
                     </span>
                     <span>
-                      <a href={`tel:${phone_2}`}>{phone_2}</a>
+                      <Link aria-label="Vserve" href={`tel:${phone_2}`}>
+                        {phone_2}
+                      </Link>
                     </span>
                   </div>
                 </div>
@@ -79,10 +96,16 @@ const ContactForm = () => {
               >
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/icon/contact-03.svg"  />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src="/assets/img/icon/contact-03.svg"
+                    />
                   </div>
                   <div className="tpcontact__address">
                     <h4 className="tpcontact__title mb-15">Opening Hours</h4>

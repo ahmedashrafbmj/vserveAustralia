@@ -23,7 +23,7 @@ const HeaderThree = () => {
           <div className="row align-items-center">
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
-                <Link href="/">
+                <Link aria-label="Vserve" href="/">
                   <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
@@ -34,7 +34,7 @@ const HeaderThree = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <a className="tp-bt-btn" href="tel:123456">
+                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel:123456">
                     <svg
                       width="14"
                       height="19"
@@ -54,7 +54,7 @@ const HeaderThree = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span>+91 590 088 55
-                  </a>
+                  </Link>
                 </div>
                 <button aria-label="vserve"
                   onClick={() => setIsActive(true)}
@@ -73,7 +73,7 @@ const HeaderThree = () => {
           <header>
             <div className="header-customss">
               <div className="header-left-logo pb-80">
-                <Link href="/">
+                <Link aria-label="Vserve" href="/">
                   <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
@@ -87,7 +87,7 @@ const HeaderThree = () => {
               </div>
               <div className="header-left-contact">
                 <span>Make a Call</span>
-                <a href="tel:+9159008855">+9159008855</a>
+                <Link aria-label="Vserve" href="tel:+9159008855">+9159008855</Link>
               </div>
             </div>
           </header>

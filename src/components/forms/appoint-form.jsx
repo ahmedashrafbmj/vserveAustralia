@@ -1,8 +1,6 @@
-  
-
 const AppointForm = () => {
   return (
-    <form onSubmit={e => e.preventDefault()}>
+    <form onSubmit={(e) => e.preventDefault()}>
       <div className="row">
         <div className="col-lg-6">
           <div className="visitor-form__input">
@@ -31,17 +29,19 @@ const AppointForm = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-12">
           <div className="visit-btn mt-20">
-            <button aria-label="vserve" className="tp-btn">Book Now</button>
+            <button aria-label="vserve" className="tp-btn">
+              Book Now
+            </button>
           </div>
         </div>
         <div className="col-lg-8 col-md-8 col-12">
           <div className="visit-serial mt-45">
             <span>
               24/7 Emergency Service :
-              <a href="tel:+00">
+              <Link aria-label="Vserve" href="tel:+00">
                 00000 0000
                 {/* <i className="fa-regular fa-arrow-right"></i> */}
-              </a>
+              </Link>
             </span>
           </div>
         </div>

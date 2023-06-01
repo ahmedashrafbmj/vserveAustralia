@@ -5,7 +5,6 @@ import Link from "next/link.js";
 import { Navigation } from "swiper";
 import Image from "next/image.js";
 
-
 // slider setting
 const setting = {
   //   loop: true,
@@ -81,16 +80,24 @@ const Team = () => {
                   <div className="swiper-slide">
                     <div className="tp-team mb-50">
                       <div className="tp-team__thumb fix">
-                        <a href="#">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
-                        </a>
+                        <Link aria-label="Vserve" href="#">
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
+                            src={item.img}
+                          />
+                        </Link>
                       </div>
                       <div className="tp-team__content">
                         <h4 className="tp-team__title mb-15">
-                          <Link href="/team-details">{item.name}</Link>
+                          <Link aria-label="Vserve" href="/team-details">
+                            {item.name}
+                          </Link>
                         </h4>
                         <span className="tp-team__position mb-30">
                           {item.title}
@@ -98,7 +105,12 @@ const Team = () => {
                         <p>{item.des}</p>
                         <div className="tp-team__social">
                           {item.social_links.map((l, i) => (
-                            <Link key={i} className={l.color} href="#">
+                            <Link
+                              aria-label="Vserve"
+                              key={i}
+                              className={l.color}
+                              href="#"
+                            >
                               <i className={l.icon}></i>
                             </Link>
                           ))}

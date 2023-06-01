@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 // slider setting
 const setting = {
   slidesPerView: 4,
@@ -71,21 +70,34 @@ const Team = () => {
                   <div className="swiper-slide">
                     <div className="team-item mb-30">
                       <div className="team-item__thumb mb-40">
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          alt="vserve"
+                          src={item.img}
+                        />
                       </div>
                       <div className="team-item__content">
                         <h5 className="team-item__title mb-15">
-                          <Link href="/team-details">{item.name}</Link>
+                          <Link aria-label="Vserve" href="/team-details">
+                            {item.name}
+                          </Link>
                         </h5>
                         <span>{item.title}</span>
                         <div className="team-item__social-info">
                           {item.social_links.map((l, i) => (
-                            <a key={i} href={l.link} target={l.target}>
+                            <Link
+                              aria-label="Vserve"
+                              key={i}
+                              href={l.link}
+                              target={l.target}
+                            >
                               <i className={l.icon}></i>
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>

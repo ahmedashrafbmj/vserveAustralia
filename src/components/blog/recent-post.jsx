@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-  
 
 // recent_post data
 const recent_post = [
@@ -42,11 +41,17 @@ const RecentPost = () => {
                 className="rc__post mb-20 d-flex align-items-center"
               >
                 <div className="rc__post-thumb">
-                  <Link href="/blog-details">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />
+                  <Link aria-label="Vserve" href="/blog-details">
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src={item.img}
+                    />
                   </Link>
                 </div>
                 <div className="rc__post-content">
@@ -54,7 +59,9 @@ const RecentPost = () => {
                     <span>{item.date}</span>
                   </div>
                   <h3 className="rc__post-title">
-                    <Link href="/blog-details">{item.title}</Link>
+                    <Link aria-label="Vserve" href="/blog-details">
+                      {item.title}
+                    </Link>
                   </h3>
                 </div>
               </div>

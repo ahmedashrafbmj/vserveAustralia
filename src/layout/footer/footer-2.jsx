@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 const FooterTwo = () => {
   return (
@@ -17,9 +16,16 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget__content mb-95">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:1300-343-481">1300-343-481</a>
+                        <Link aria-label="Vserve" href="tel:1300-343-481">
+                          1300-343-481
+                        </Link>
                       </h4>
-                      <a href="mailto:CARE@VSERVEAUSTRALIA.COM.AU">CARE@VSERVEAUSTRALIA.COM.AU</a>
+                      <Link
+                        aria-label="Vserve"
+                        href="mailto:CARE@VSERVEAUSTRALIA.COM.AU"
+                      >
+                        CARE@VSERVEAUSTRALIA.COM.AU
+                      </Link>
                     </div>
                     <div className="tp-footer-widget__sub-sec">
                       <span className="tp-footer-widget__sub-title mb-5">
@@ -27,8 +33,12 @@ const FooterTwo = () => {
                       </span>
                       <p>
                         Nam eget dui vel quam sodales semper quis porttitor
-                        tortor.</p> <p> Vivamus quis ex nulla ...Nam eget dui vel
-                        quam  sodales semper quis porttitor tortor.
+                        tortor.
+                      </p>{" "}
+                      <p>
+                        {" "}
+                        Vivamus quis ex nulla ...Nam eget dui vel quam sodales
+                        semper quis porttitor tortor.
                       </p>
                     </div>
                   </div>
@@ -44,16 +54,20 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
                         <li>
-                          <Link href="/contact">Contact us</Link>
+                          <Link aria-label="Vserve" href="/contact">
+                            Contact us
+                          </Link>
                         </li>
-                   
-                    
-                        
+
                         <li>
-                          <Link href="/about">About us</Link>
+                          <Link aria-label="Vserve" href="/about">
+                            About us
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/services-details">Services</Link>
+                          <Link aria-label="Vserve" href="/services-details">
+                            Services
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -82,37 +96,37 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget__links">
                       <ul>
                         <li>
-                          <a href="#">Orders</a>
+                          <Link aria-label="Vserve" href="#">Orders</Link>
                         </li>
                         <li>
-                          <a href="#">Product</a>
+                          <Link aria-label="Vserve" href="#">Product</Link>
                         </li>
                         <li>
-                          <a href="shop-details">Shipping & Returns</a>
+                          <Link aria-label="Vserve" href="shop-details">Shipping & Returns</Link>
                         </li>
                         <li>
-                          <a href="#">Addresses</a>
+                          <Link aria-label="Vserve" href="#">Addresses</Link>
                         </li>
                         <li>
-                          <a href="#">Account details</a>
+                          <Link aria-label="Vserve" href="#">Account details</Link>
                         </li>
                         <li>
-                          <a href="#">Shop</a>
+                          <Link aria-label="Vserve" href="#">Shop</Link>
                         </li>
                         <li>
-                          <a href="#">Lost password</a>
+                          <Link aria-label="Vserve" href="#">Lost password</Link>
                         </li>
                         <li>
-                          <a href="#">Account</a>
+                          <Link aria-label="Vserve" href="#">Account</Link>
                         </li>
                         <li>
-                          <a href="#">Downloads</a>
+                          <Link aria-label="Vserve" href="#">Downloads</Link>
                         </li>
                         <li>
-                          <a href="#">Orders</a>
+                          <Link aria-label="Vserve" href="#">Orders</Link>
                         </li>
                         <li>
-                          <a href="#">Logout</a>
+                          <Link aria-label="Vserve" href="#">Logout</Link>
                         </li>
                       </ul>
                     </div>
@@ -128,37 +142,42 @@ const FooterTwo = () => {
                     </span>
                     <div className="tp-footer-widget__links mb-120">
                       <ul>
-                        <li>VSERVE AUSTRALIA DISABILITY CARE, NSW 2000, AUSTRALIA</li>
                         <li>
-                          <a href="tel:1300-343-481">
-                          1300-343-481
-                          </a>
+                          VSERVE AUSTRALIA DISABILITY CARE, NSW 2000, AUSTRALIA
                         </li>
                         <li>
-                          <a href="mailto:CARE@VSERVEAUSTRALIA.COM.AU">
-                          CARE@VSERVEAUSTRALIA.COM.AU
-                          </a>
+                          <Link aria-label="Vserve" href="tel:1300-343-481">
+                            1300-343-481
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            aria-label="Vserve"
+                            href="mailto:CARE@VSERVEAUSTRALIA.COM.AU"
+                          >
+                            CARE@VSERVEAUSTRALIA.COM.AU
+                          </Link>
                         </li>
                         <li>Office Hours: 8AM - 11PM</li>
                         <li>Sunday - Wekend Day</li>
                       </ul>
                     </div>
                     <div className="tp-footer-widget__social fw-social">
-                      <a href="#">
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-light fa-basketball"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -172,8 +191,11 @@ const FooterTwo = () => {
                   <div className="footer-widget__copyright copyright-white">
                     <span>
                       © Copyright ©{new Date().getFullYear()}
-                      <Link href="/">{" "}Vserve</Link>.
-                      <i> All Rights Reserved Copyright</i>
+                      <Link aria-label="Vserve" href="/">
+                        {" "}
+                        Vserve
+                      </Link>
+                      .<i> All Rights Reserved Copyright</i>
                     </span>
                   </div>
                 </div>
@@ -181,13 +203,13 @@ const FooterTwo = () => {
                   <div className="footer-widget__copyright-info info-direction">
                     {/* <ul className="d-flex align-items-center">
                       <li>
-                        <a href="#">Terms and conditions</a>
+                        <Link aria-label="Vserve" href="#">Terms and conditions</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy policy</a>
+                        <Link aria-label="Vserve" href="#">Privacy policy</Link>
                       </li>
                       <li>
-                        <a href="#">Pricing</a>
+                        <Link aria-label="Vserve" href="#">Pricing</Link>
                       </li>
                     </ul> */}
                   </div>

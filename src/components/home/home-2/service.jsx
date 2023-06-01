@@ -20,7 +20,7 @@ const Service = () => {
               <div className="services-link text-md-start text-lg-end mb-30">
                 <span>
                   Well ensure you always get the best results:
-                  <Link href="/contact">
+                  <Link aria-label="Vserve" href="/contact">
                     Contact us<i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </span>
@@ -41,7 +41,7 @@ const Service = () => {
                   </div>
                   <div className="services-item__content">
                     <h5 className="services-item__tp-title mb-30">
-                      <Link href="/services-details">{item.title}</Link>
+                      <Link aria-label="Vserve" href="/services-details">{item.title}</Link>
                     </h5>
                     <p>{item.des}</p>
                   </div>

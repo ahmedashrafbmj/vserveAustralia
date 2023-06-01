@@ -20,7 +20,7 @@ const Banner = () => {
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
                 <span>
-                  VServe App : <Link href="/team-details"> About us</Link>
+                  VServe App : <Link aria-label="Vserve" href="/team-details"> About us</Link>
                 </span>
               </div>
             </div>

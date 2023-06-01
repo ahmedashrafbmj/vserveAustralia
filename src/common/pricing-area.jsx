@@ -1,12 +1,13 @@
 import pricing_data from "@/data/pricing-data";
 import Link from "next/link";
-  
 
-const PricingArea = ({dark, p_bottom}) => {
+const PricingArea = ({ dark, p_bottom }) => {
   return (
     <>
       <section
-        className={`pricing-area ${dark ? "theme-bg pt-125" : ""} ${p_bottom ? "" : "pt-120"} pb-90`}
+        className={`pricing-area ${dark ? "theme-bg pt-125" : ""} ${
+          p_bottom ? "" : "pt-120"
+        } pb-90`}
       >
         <div className="container">
           <div className="row text-center">
@@ -28,7 +29,11 @@ const PricingArea = ({dark, p_bottom}) => {
           <div className="row g-0 align-items-center">
             {pricing_data.map((item) => (
               <div key={item.id} className="col-lg-4 col-md-6">
-                <div className={`tp-price ${item.class} ${dark ? "tp-white-price" : ""} mb-40`}>
+                <div
+                  className={`tp-price ${item.class} ${
+                    dark ? "tp-white-price" : ""
+                  } mb-40`}
+                >
                   <div className="tp-price__badge mb-45">
                     <span>{item.title}</span>
                   </div>
@@ -51,7 +56,7 @@ const PricingArea = ({dark, p_bottom}) => {
                     </ul>
                   </div>
                   <div className={`tp-price__btn ${item.btn_color} `}>
-                    <Link href="/contact">
+                    <Link aria-label="Vserve" href="/contact">
                       Purchase Now
                       <span>
                         <svg

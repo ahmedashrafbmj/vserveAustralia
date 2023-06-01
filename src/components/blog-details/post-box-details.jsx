@@ -1,5 +1,5 @@
 import Link from "next/link";
-  
+
 import BlogSearch from "../blog/blog-search";
 import Category from "../blog/category";
 import RecentPost from "../blog/recent-post";
@@ -8,7 +8,6 @@ import CommentForm from "../forms/comment-form";
 import Image from "next/image";
 
 const PostBoxDetails = () => {
- 
   return (
     <>
       <div
@@ -22,11 +21,17 @@ const PostBoxDetails = () => {
               <div className="postbox__wrapper pr-20">
                 <article className="postbox__item format-image mb-50 transition-3">
                   <div className="postbox__thumb w-img mb-30">
-                    <Link href="/blog-details">
-                      <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/blog/blog-in-01.jpg"  />
+                    <Link aria-label="Vserve" href="/blog-details">
+                      <Image
+                        quality={20}
+                        placeholder="image"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        alt="vserve"
+                        src="/assets/img/blog/blog-in-01.jpg"
+                      />
                     </Link>
                   </div>
                   <div className="postbox__content">
@@ -35,7 +40,7 @@ const PostBoxDetails = () => {
                         <div className="postbox__content-area pb-20">
                           <div className="postbox__meta mb-40">
                             <span>
-                              <Link href="/team-details">
+                              <Link aria-label="Vserve" href="/team-details">
                                 <i className="fa-regular fa-user"></i> Alextina
                               </Link>
                             </span>
@@ -55,7 +60,7 @@ const PostBoxDetails = () => {
                           </div>
 
                           <h3 className="postbox__title mb-35">
-                            <Link href="/blog-details">
+                            <Link aria-label="Vserve" href="/blog-details">
                               Lavoratories used for scientic reseach take many
                               froms.
                             </Link>
@@ -112,12 +117,15 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img w-img mb-60">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
                             src="/assets/img/blog/blog-details-meta-03.jpg"
-                            
                           />
                         </div>
                       </div>
@@ -126,7 +134,7 @@ const PostBoxDetails = () => {
                       <div className="col-lg-12">
                         <div className="postbox__content-area mb-40">
                           <h4 className="mb-25">
-                            <Link href="/blog-details">
+                            <Link aria-label="Vserve" href="/blog-details">
                               What Is A Business Technology Roadmap?
                             </Link>
                           </h4>
@@ -146,23 +154,29 @@ const PostBoxDetails = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
                             src="/assets/img/blog/blog-details-meta-01.jpg"
-                            
                           />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="postbox__meta-img mb-60">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
                             src="/assets/img/blog/blog-details-meta-02.jpg"
-                            
                           />
                         </div>
                       </div>
@@ -173,9 +187,15 @@ const PostBoxDetails = () => {
                           <div className="postbox__tag">
                             <div className="postbox__tag-list tagcloud">
                               <span>Tag</span>
-                              <Link href="/blog">Covid-19</Link>
-                              <Link href="/blog">Bacteria</Link>
-                              <Link href="/blog">Medicine</Link>
+                              <Link aria-label="Vserve" href="/blog">
+                                Covid-19
+                              </Link>
+                              <Link aria-label="Vserve" href="/blog">
+                                Bacteria
+                              </Link>
+                              <Link aria-label="Vserve" href="/blog">
+                                Medicine
+                              </Link>
                             </div>
                           </div>
                         </div>

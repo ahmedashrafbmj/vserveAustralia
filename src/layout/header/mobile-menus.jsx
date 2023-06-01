@@ -21,7 +21,7 @@ const MobileMenus = () => {
             <React.Fragment key={i}>
               {menu.has_dropdown && (
                 <li className="has-dropdown">
-                  <Link href={menu.link}>{menu.title}</Link>
+                  <Link aria-label="Vserve" href={menu.link}>{menu.title}</Link>
                   <ul
                     className="submenu"
                     style={{
@@ -30,11 +30,11 @@ const MobileMenus = () => {
                   >
                     {menu.sub_menus.map((sub, i) => (
                       <li key={i}>
-                        <Link href={sub.link}>{sub.title}</Link>
+                        <Link aria-label="Vserve" href={sub.link}>{sub.title}</Link>
                       </li>
                     ))}
                   </ul>
-                  <a
+                  <Link aria-label="Vserve"
                     className={`mean-expand ${
                       navTitle === menu.title ? "mean-clicked" : ""
                     }`}
@@ -43,12 +43,12 @@ const MobileMenus = () => {
                     style={{ fontSize: "18px", cursor: "pointer" }}
                   >
                     <i className="fal fa-plus"></i>
-                  </a>
+                  </Link>
                 </li>
               )}
               {!menu.has_dropdown && (
                 <li>
-                  <Link href={menu.link}>{menu.title}</Link>
+                  <Link aria-label="Vserve" href={menu.link}>{menu.title}</Link>
                 </li>
               )}
             </React.Fragment>

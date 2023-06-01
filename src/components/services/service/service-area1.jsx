@@ -1,6 +1,5 @@
 import ServiceOneData from "@/data/service-one-data";
 import Link from "next/link";
-  
 
 const ServiceArea = () => {
   return (
@@ -32,11 +31,14 @@ const ServiceArea = () => {
                   </div>
                   <div className="services-item__content">
                     <h4 className="services-item__tp-title tp-srv-title mb-30">
-                      <Link href="/services-details">{item.title}</Link>
+                      <Link aria-label="Vserve" href="/services-details">
+                        {item.title}
+                      </Link>
                     </h4>
                     <p>{item.des}</p>
                     <div className="services-item__btn">
                       <Link
+                        aria-label="Vserve"
                         className={`btn-hexa ${item.btn_color}`}
                         href="/service"
                       >

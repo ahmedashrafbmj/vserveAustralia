@@ -21,9 +21,9 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__content mb-95">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:61383766284">000 000 000</a>
+                        <Link aria-label="Vserve" href="tel:61383766284">000 000 000</Link>
                       </h4>
-                      <a href="mailto:noreply@address.com">noreply@address.com</a>
+                      <Link aria-label="Vserve" href="mailto:noreply@address.com">noreply@address.com</Link>
                     </div>
                     <div className="tp-footer-widget__sub-sec">
                       <span className="tp-footer-widget__sub-title mb-5">
@@ -48,22 +48,22 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
                         <li>
-                          <Link href="/contact">Contact us</Link>
+                          <Link aria-label="Vserve" href="/contact">Contact us</Link>
                         </li>
                         <li>
-                          <Link href="/about">Help & About us</Link>
+                          <Link aria-label="Vserve" href="/about">Help & About us</Link>
                         </li>
                         <li>
-                          <Link href="/contact">Shipping & Returns</Link>
+                          <Link aria-label="Vserve" href="/contact">Shipping & Returns</Link>
                         </li>
                         <li>
-                          <Link href="/contact">Refund Policy</Link>
+                          <Link aria-label="Vserve" href="/contact">Refund Policy</Link>
                         </li>
                         <li>
-                          <Link href="/about">About us</Link>
+                          <Link aria-label="Vserve" href="/about">About us</Link>
                         </li>
                         <li>
-                          <Link href="/services-details">Services</Link>
+                          <Link aria-label="Vserve" href="/services-details">Services</Link>
                         </li>
                       </ul>
                     </div>
@@ -92,37 +92,37 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__links">
                       <ul>
                         <li>
-                          <a href="#">Orders</a>
+                          <Link aria-label="Vserve" href="#">Orders</Link>
                         </li>
                         <li>
-                          <a href="#">Downloads</a>
+                          <Link aria-label="Vserve" href="#">Downloads</Link>
                         </li>
                         <li>
-                          <a href="#">Shipping & Returns</a>
+                          <Link aria-label="Vserve" href="#">Shipping & Returns</Link>
                         </li>
                         <li>
-                          <a href="#">Addresses</a>
+                          <Link aria-label="Vserve" href="#">Addresses</Link>
                         </li>
                         <li>
-                          <a href="#">Account details</a>
+                          <Link aria-label="Vserve" href="#">Account details</Link>
                         </li>
                         <li>
-                          <a href="#">Logout</a>
+                          <Link aria-label="Vserve" href="#">Logout</Link>
                         </li>
                         <li>
-                          <a href="#">Lost password</a>
+                          <Link aria-label="Vserve" href="#">Lost password</Link>
                         </li>
                         <li>
-                          <a href="#">Privacy</a>
+                          <Link aria-label="Vserve" href="#">Privacy</Link>
                         </li>
                         <li>
-                          <a href="#">Policy</a>
+                          <Link aria-label="Vserve" href="#">Policy</Link>
                         </li>
                         <li>
-                          <a href="#">Careers</a>
+                          <Link aria-label="Vserve" href="#">Careers</Link>
                         </li>
                         <li>
-                          <a href="#">Support</a>
+                          <Link aria-label="Vserve" href="#">Support</Link>
                         </li>
                       </ul>
                     </div>
@@ -140,35 +140,35 @@ const FooterFour = ({ style_2 = false }) => {
                       <ul>
                         <li>address here </li>
                         <li>
-                          <a href="tel:(+880)15569569365">
+                          <Link aria-label="Vserve" href="tel:(+880)15569569365">
                             000 000 000
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="mailto:support@mail.com">
+                          <Link aria-label="Vserve" href="mailto:support@mail.com">
                             support@mail.com
-                          </a>
+                          </Link>
                         </li>
                         <li>Office Hours: 8AM - 11PM</li>
                         <li>Sunday - Wekend Day</li>
                       </ul>
                     </div>
                     <div className="tp-footer-widget__social fw-social">
-                      <a href="#">
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-light fa-basketball"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link aria-label="Vserve" href="#">
                         <i className="fa-brands fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ const FooterFour = ({ style_2 = false }) => {
                     <span>
                      
                       © Copyright © {new Date().getFullYear()}
-                      <a href="index">Vserve</a>.
+                      <Link aria-label="Vserve" href="index">Vserve</Link>.
                       <i> All Rights Reserved Copyright</i>
                     </span>
                   </div>
@@ -192,13 +192,13 @@ const FooterFour = ({ style_2 = false }) => {
                   <div className="footer-widget__copyright-info info-direction">
                     <ul className="d-flex align-items-center">
                       <li>
-                        <a href="#">Terms and conditions</a>
+                        <Link aria-label="Vserve" href="#">Terms and conditions</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy policy</a>
+                        <Link aria-label="Vserve" href="#">Privacy policy</Link>
                       </li>
                       <li>
-                        <a href="#">Pricing</a>
+                        <Link aria-label="Vserve" href="#">Pricing</Link>
                       </li>
                     </ul>
                   </div>

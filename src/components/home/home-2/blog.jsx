@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 // blog_content
 const blog_content = [
   {
@@ -66,7 +65,6 @@ const setting = {
   },
 };
 const Blog = () => {
-
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
     setIsLoop(true);
@@ -97,7 +95,7 @@ const Blog = () => {
           </div>
           <Swiper
             modules={[Navigation]}
-          loop={isLoop}
+            loop={isLoop}
             {...setting}
             className="swiper-container blog-active"
           >
@@ -106,14 +104,22 @@ const Blog = () => {
                 <div className="pb-50">
                   <div className="blog-item">
                     <div className="blog-item__thumb fix">
-                      <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
+                      <Image
+                        quality={20}
+                        placeholder="image"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        alt="vserve"
+                        src={item.img}
+                      />
                     </div>
                     <div className="blog-item__content">
                       <h5 className="blog-item__title mb-15">
-                        <Link href="/blog-details">{item.title}</Link>
+                        <Link aria-label="Vserve" href="/blog-details">
+                          {item.title}
+                        </Link>
                       </h5>
                       <p>{item.des}</p>
                       <div className="blog-item__date-info">
@@ -137,7 +143,7 @@ const Blog = () => {
               <div className="blog-link text-center">
                 <span>
                   Join our Community for Get Update :
-                  <Link href="/blog-details">
+                  <Link aria-label="Vserve" href="/blog-details">
                     Join our Community
                     <i className="fa-regular fa-arrow-right"></i>
                   </Link>

@@ -4,8 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
-// slider setting 
+// slider setting
 const setting = {
   // Optional parameters
   slidesPerView: 5,
@@ -42,16 +41,16 @@ const setting = {
   },
 };
 
-// brands_img; 
- const brands_img = [
-   { img: "/assets/img/brand/brand-01.png" },
-   { img: "/assets/img/brand/brand-02.png" },
-   { img: "/assets/img/brand/brand-03.png" },
-   { img: "/assets/img/brand/brand-04.png" },
-   { img: "/assets/img/brand/brand-05.png" },
-   { img: "/assets/img/brand/brand-04.png" },
+// brands_img;
+const brands_img = [
+  { img: "/assets/img/brand/brand-01.png" },
+  { img: "/assets/img/brand/brand-02.png" },
+  { img: "/assets/img/brand/brand-03.png" },
+  { img: "/assets/img/brand/brand-04.png" },
+  { img: "/assets/img/brand/brand-05.png" },
+  { img: "/assets/img/brand/brand-04.png" },
 ];
- 
+
 const Brands = ({ style_2 = false, border_style = false }) => {
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
@@ -80,11 +79,17 @@ const Brands = ({ style_2 = false, border_style = false }) => {
                 <SwiperSlide key={i}>
                   <div className="swiper-wrapper brand-items">
                     <div className="swiper-slide">
-                      <Link href="/">
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
+                      <Link aria-label="Vserve" href="/">
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          alt="vserve"
+                          src={item.img}
+                        />
                       </Link>
                     </div>
                   </div>

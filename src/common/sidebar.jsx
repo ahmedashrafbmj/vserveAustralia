@@ -44,7 +44,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
           <i className="fal fa-times"></i>
         </button>
         <div className="tpsideinfo__logo mb-40">
-          <Link href="/">
+          <Link aria-label="Vserve" href="/">
             <Image
               quality={20}
               placeholder="image"
@@ -70,15 +70,15 @@ const Sidebar = ({ isActive, setIsActive }) => {
             findings.
           </p>
           <span>Contact Us</span>
-          <a href="#">
+          <Link aria-label="Vserve" href="#">
             <i className="fa-solid fa-star"></i>Your Address
-          </a>
-          <a href="tel:61383766284">
+          </Link>
+          <Link aria-label="Vserve" href="tel:61383766284">
             <i className="fa-solid fa-star"></i>000 0000 0000
-          </a>
-          <a href="mailto:noreply@email.com">
+          </Link>
+          <Link aria-label="Vserve" href="mailto:noreply@email.com">
             <i className="fa-solid fa-star"></i>noreply@email.com
-          </a>
+          </Link>
         </div>
         <div className="tpsideinfo__content-inputarea mb-60 d-none d-xl-block">
           <span>Get Update</span>
@@ -98,7 +98,8 @@ const Sidebar = ({ isActive, setIsActive }) => {
           <span>Cheack Instagram Post</span>
           <div className="tpsideinfo__gallery-item">
             {images.map((item, i) => (
-              <a
+              <Link
+                aria-label="Vserve"
                 key={i}
                 style={{ cursor: "pointer" }}
                 onClick={() => handleImagePopup(i)}
@@ -114,23 +115,23 @@ const Sidebar = ({ isActive, setIsActive }) => {
                   alt="vserve"
                   src={item.img}
                 />
-              </a>
+              </Link>
             ))}
           </div>
         </div>
         <div className="tpsideinfo__socialicon">
-          <a href="#">
+          <Link aria-label="Vserve" href="#">
             <i className="fa-brands fa-youtube"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link aria-label="Vserve" href="#">
             <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link aria-label="Vserve" href="#">
             <i className="fa-brands fa-facebook-f"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link aria-label="Vserve" href="#">
             <i className="fa-brands fa-skype"></i>
-          </a>
+          </Link>
         </div>
       </div>
 

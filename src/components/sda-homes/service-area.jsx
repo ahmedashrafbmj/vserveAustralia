@@ -1,7 +1,6 @@
 import sda_homes_data from "@/data/sda-homes-data";
 import Image from "next/image";
 import Link from "next/link";
-  
 
 const ServiceArea = () => {
   return (
@@ -24,7 +23,7 @@ const ServiceArea = () => {
               <div className="services-link text-md-start text-lg-end mb-30">
                 <span>
                   {`We'll`} ensure you always get the best results:
-                  <Link href="/contact">
+                  <Link aria-label="Vserve" href="/contact">
                     Contact us<i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </span>
@@ -39,7 +38,10 @@ const ServiceArea = () => {
                 support needs.These are not support services, but the homes in
                 which they are delivered. For detailed information on SDA homes
                 follow{" "}
-                <Link href="https://www.ndis.gov.au/about-us/operational-guidelines/specialist-disability-accommodation-operational-guideline/what-sda">
+                <Link
+                  aria-label="Vserve"
+                  href="https://www.ndis.gov.au/about-us/operational-guidelines/specialist-disability-accommodation-operational-guideline/what-sda"
+                >
                   <p>
                     <u>
                       https://www.ndis.gov.au/about-us/operational-guidelines/specialist-disability-accommodation-operational-guideline/what-sda
@@ -63,8 +65,8 @@ const ServiceArea = () => {
           <div className="row align-items-end  mb-45">
             <div className="col-lg-7 col-md-12 col-12 ">
               <p>
-                Yes, If you have {"an extreme functional impairment"} or 
-              {"very high support needs"}. <br />
+                Yes, If you have {"an extreme functional impairment"} or
+                {"very high support needs"}. <br />
                 If you have SDA needs requirement.
                 <br />
                 If SDA is reasonable and necessary for you
@@ -74,7 +76,7 @@ const ServiceArea = () => {
             <div className="col-lg-5 col-md-12 col-12">
               <div className="services-link text-md-start text-lg-end mb-30">
                 <span>
-                  <Link href="/contact">
+                  <Link aria-label="Vserve" href="/contact">
                     Check SDA Eligiblity
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
@@ -90,10 +92,16 @@ const ServiceArea = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="services-thumb-box__thumb fix">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}  />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src={item.img}
+                    />
                   </div>
                   <div className="services-thumb-box__text-area d-flex align-items-center">
                     {/* <div className="services-thumb-box__icon mr-20">
@@ -101,10 +109,12 @@ const ServiceArea = () => {
                     </div> */}
                     <div className="services-thumb-box__content">
                       <h5 className="services-thumb-box__title">
-                        <Link href="/services-details">{item.title}</Link>
+                        <Link aria-label="Vserve" href="/services-details">
+                          {item.title}
+                        </Link>
                       </h5>
                       <span className="text-dark">{item.descripton}</span>
-                      {/* <Link className="tp-btn-link" href="/services-2">
+                      {/* <Link aria-label="Vserve" className="tp-btn-link" href="/services-2">
                         Read More
                       </Link> */}
                     </div>

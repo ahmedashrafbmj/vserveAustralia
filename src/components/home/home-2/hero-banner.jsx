@@ -97,6 +97,7 @@ const HeroBanner = () => {
                 <div className="slider-content__social">
                   {social_links.map((link, i) => (
                     <Link
+                      aria-label="Vserve"
                       key={i}
                       target={link.target}
                       className={link.color}
@@ -138,10 +139,18 @@ const HeroBanner = () => {
                         </h2>
                         <p>{item.des}</p>
                         <div className="slider-content__btn mb-165">
-                          <Link className="tp-btn" href="/contact">
+                          <Link
+                            aria-label="Vserve"
+                            className="tp-btn"
+                            href="/contact"
+                          >
                             {item.appointment}
                           </Link>
-                          <Link className="tp-btn-second ml-25" href="/about">
+                          <Link
+                            aria-label="Vserve"
+                            className="tp-btn-second ml-25"
+                            href="/about"
+                          >
                             {item.about}
                           </Link>
                         </div>
@@ -149,17 +158,28 @@ const HeroBanner = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_1} />
-
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          alt="vserve"
+                          src={item.img_1}
+                        />
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img_2}  />
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          alt="vserve"
+                          src={item.img_2}
+                        />
                       </div>
                     </div>
                   </div>

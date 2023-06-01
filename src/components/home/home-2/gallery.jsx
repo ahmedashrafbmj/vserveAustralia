@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-  
-
 
 // gallery_content_data
 const gallery_content_data = [
@@ -74,17 +72,27 @@ const Gallery = () => {
               {gallery_content_data.map((item) => (
                 <div key={item.id} className={item.class}>
                   <div className="gallery-item p-relative mb-30">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img} />
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      alt="vserve"
+                      src={item.img}
+                    />
                     <div className="gallery-item__content">
                       <h4 className="gallery-item__title">
-                        <Link href="/portfolio-details">{item.title}</Link>
+                        <Link aria-label="Vserve" href="/portfolio-details">
+                          {item.title}
+                        </Link>
                       </h4>
                       <span>
                         <i className="fa-solid fa-tag"></i>
-                        <Link href="/services-details">Genetics</Link>
+                        <Link aria-label="Vserve" href="/services-details">
+                          Genetics
+                        </Link>
                       </span>
                     </div>
                   </div>
@@ -94,7 +102,11 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="gallery-btn text-center mt-30">
-                  <Link href="/portfolio-details" className="tp-btn">
+                  <Link
+                    aria-label="Vserve"
+                    href="/portfolio-details"
+                    className="tp-btn"
+                  >
                     Explore More
                   </Link>
                 </div>

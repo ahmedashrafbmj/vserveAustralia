@@ -47,7 +47,7 @@ const FooterThree = () => {
                     </div>
                     <div className="footercontact__content">
                       <span className="footercontact__title">
-                        <Link href="/contact">
+                        <Link aria-label="Vserve" href="/contact">
                           address here Rd, <br /> Nya 10982 USA
                         </Link>
                       </span>
@@ -63,10 +63,10 @@ const FooterThree = () => {
                       <i className="flaticon-mail"></i>
                     </div>
                     <div className="footercontact__content fw-pink-content">
-                      <a href="mailto:Rasalinawillam@gmail.com">
+                      <Link aria-label="Vserve" href="mailto:Rasalinawillam@gmail.com">
                         Rasalinawillam@gmail.com
-                      </a>
-                      <a href="tel:+08987878773345">+08 98787 8773 345 </a>
+                      </Link>
+                      <Link aria-label="Vserve" href="tel:+08987878773345">+08 98787 8773 345 </Link>
                     </div>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const FooterThree = () => {
                     <div className="footer-widget__copyright cpy-white-content">
                       <span>
                         © Copyright © {new Date().getFullYear()}
-                        <Link href="/"> Vserve</Link>.
+                        <Link aria-label="Vserve" href="/"> Vserve</Link>.
                         <i> All Rights Reserved Copyright</i>
                       </span>
                     </div>
@@ -104,13 +104,13 @@ const FooterThree = () => {
                     <div className="footer-widget__copyright-info info-direction cpy-white-content-info">
                       <ul className="d-flex align-items-center">
                         <li>
-                          <a href="#">Terms and conditions</a>
+                          <Link aria-label="Vserve" href="#">Terms and conditions</Link>
                         </li>
                         <li>
-                          <a href="#">Privacy policy</a>
+                          <Link aria-label="Vserve" href="#">Privacy policy</Link>
                         </li>
                         <li>
-                          <a href="#">Pricing</a>
+                          <Link aria-label="Vserve" href="#">Pricing</Link>
                         </li>
                       </ul>
                     </div>

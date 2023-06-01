@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 const Banner = () => {
   return (
@@ -20,7 +19,11 @@ const Banner = () => {
             <div className="col-xl-6 col-lg-5 col-md-5 col-12">
               <div className="tp-breadcrumb__link d-flex align-items-center">
                 <span>
-                  VServe App : <Link href="/blog-details"> Blog Detaails</Link>
+                  VServe App :{" "}
+                  <Link aria-label="Vserve" href="/blog-details">
+                    {" "}
+                    Blog Detaails
+                  </Link>
                 </span>
               </div>
             </div>

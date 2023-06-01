@@ -75,10 +75,16 @@ const PostBox = () => {
                     {article.img && (
                       <div className="postbox__thumb w-img mb-35">
                         <Link href="/blog-details">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={article.img}  />
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
+                            src={article.img}
+                          />
                         </Link>
                       </div>
                     )}
@@ -92,19 +98,31 @@ const PostBox = () => {
                         {article.slider_img.map((img, index) => (
                           <SwiperSlide key={index}>
                             <div className="postbox__slider-item swiper-slide">
-                              <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img}  />
+                              <Image
+                                quality={20}
+                                placeholder="image"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "100%", height: "auto" }}
+                                alt="vserve"
+                                src={img.img}
+                              />
                             </div>
                           </SwiperSlide>
                         ))}
 
                         <div className="postbox-nav">
-                          <button aria-label="vserve" className="postbox-slider-button-next">
+                          <button
+                            aria-label="vserve"
+                            className="postbox-slider-button-next"
+                          >
                             <i className="fa-solid fa-chevron-right"></i>
                           </button>
-                          <button aria-label="vserve" className="postbox-slider-button-prev">
+                          <button
+                            aria-label="vserve"
+                            className="postbox-slider-button-prev"
+                          >
                             <i className="fa-solid fa-chevron-left"></i>
                           </button>
                         </div>
@@ -117,10 +135,16 @@ const PostBox = () => {
                           className="postbox__thumb postbox__video p-relative w-img mb-35"
                         >
                           <Link href="/blog-details">
-                            <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.video_tum} />
+                            <Image
+                              quality={20}
+                              placeholder="image"
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              alt="vserve"
+                              src={item.video_tum}
+                            />
                           </Link>
 
                           <VideoPopup
@@ -128,7 +152,8 @@ const PostBox = () => {
                             setIsVideoOpen={setIsVideoOpen}
                             videoId={item.videoId}
                           />
-                          <button aria-label="vserve"
+                          <button
+                            aria-label="vserve"
                             onClick={() => setIsVideoOpen(true)}
                             className="play-btn popup-video"
                           >

@@ -62,10 +62,10 @@ const AboutArea = () => {
                   <h3 className="tp-section__title ab-title mb-25">
                     We’ll Ensure You Alwasy Get Best Results.
                   </h3>
-                  <a className="tp-section__link" href="#">
+                  <Link aria-label="Vserve" className="tp-section__link" href="#">
                     Read our MIssion & Vission{" "}
                     <i className="fa-solid fa-arrow-right"></i>
-                  </a>
+                  </Link>
                   <p className=" mr-20 mb-40">
                     Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
                     ea commodo claritatem insitamconse quat.Exerci tation
@@ -93,7 +93,7 @@ const AboutArea = () => {
                   </ul>
                 </div>
                 <div className="about-content__btn">
-                  <Link href="/about" className="tp-btn">
+                  <Link aria-label="Vserve" href="/about" className="tp-btn">
                     About us
                   </Link>
                 </div>

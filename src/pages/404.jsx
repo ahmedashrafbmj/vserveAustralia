@@ -7,7 +7,7 @@ const Error = () => {
     <>
       <div className="container">
         <div className="error_page">
-          <Link href="/">
+          <Link aria-label="Vserve" href="/">
             <Image quality={20}
               placeholder="image"
               width={0}

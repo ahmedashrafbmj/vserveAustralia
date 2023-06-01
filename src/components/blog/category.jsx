@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 // category_data
 const category_data = [
@@ -38,7 +37,7 @@ const Category = () => {
           <ul>
             {category_data.map((item, i) => (
               <li key={i}>
-                <Link href="/blog-details">
+                <Link aria-label="Vserve" href="/blog-details">
                   {item.category}
                   <span>{item.blog_item}</span>
                 </Link>

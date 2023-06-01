@@ -165,13 +165,13 @@ const ServiceArea = () => {
                         src={item.img}
                       />
                       {/* <div className="tp-gallery__info">
-                          <a
+                          <Link aria-label="Vserve"
                             onClick={() => handleImagePopup(index)}
                             className="popup-image"
                             style={{ cursor: "pointer" }}
                           >
                             <i className="fa-solid fa-plus"></i>
-                          </a>
+                          </Link>
                         </div> */}
                       <div className="tp-gallery__title ourServicesBeforeContent">
                         {item.text1}
@@ -180,11 +180,15 @@ const ServiceArea = () => {
 
                     <div className="tp-gallery__content">
                       <h4 className="tp-gallery__title">
-                        <Link href="#">{item.text1}</Link>
+                        <Link aria-label="Vserve" href="#">
+                          {item.text1}
+                        </Link>
                       </h4>
                       <span>
                         {/* <i className="fa-solid fa-tag"></i> */}
-                        <Link href="#">{item.text2}</Link>
+                        <Link aria-label="Vserve" href="#">
+                          {item.text2}
+                        </Link>
                       </span>
                     </div>
                   </div>

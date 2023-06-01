@@ -1,5 +1,4 @@
 import Link from "next/link";
-  
 
 //  tags data
 const tags = [
@@ -23,7 +22,7 @@ const Tags = () => {
         <div className="sidebar__widget-content">
           <div className="tagcloud">
             {tags.map((tag, i) => (
-              <Link key={i} href="/blog-details">
+              <Link aria-label="Vserve" key={i} href="/blog-details">
                 {tag.name}
               </Link>
             ))}

@@ -1,12 +1,11 @@
 import Link from "next/link";
-  
 
 const ServiceDetailsArea = () => {
   return (
     <>
       <section className="services-details pt-130 pb-120">
         <div className="container">
-            {/* <div className="row">
+          {/* <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div
                   className="services-thumb-img mb-50 wow fadeInLeft"
@@ -40,14 +39,21 @@ const ServiceDetailsArea = () => {
             <div className="col-lg-12">
               <div className="tp-srv-process mb-50">
                 <h4 className="tp-srv-process__title mb-30">
-                 
-Understanding the NDIS
+                  Understanding the NDIS
                 </h4>
                 <p className="mb-20">
-                  
-There are around 4.3 million Australians who have a disability. Within the next five years, the National Disability Insurance Scheme (NDIS) will provide more than $22 billion in funding a year to an estimated 500,000 Australians who have permanent and significant disability. For many people, it will be the first time they receive the disability support they need.
-
-The NDIS can provide all people with disability with information and connections to services in their communities such as doctors, sporting clubs, support groups, libraries and schools, as well as information about what support is provided by each state and territory government.
+                  There are around 4.3 million Australians who have a
+                  disability. Within the next five years, the National
+                  Disability Insurance Scheme (NDIS) will provide more than $22
+                  billion in funding a year to an estimated 500,000 Australians
+                  who have permanent and significant disability. For many
+                  people, it will be the first time they receive the disability
+                  support they need. The NDIS can provide all people with
+                  disability with information and connections to services in
+                  their communities such as doctors, sporting clubs, support
+                  groups, libraries and schools, as well as information about
+                  what support is provided by each state and territory
+                  government.
                 </p>
                 {/* <p className="mb-40">
                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit
@@ -59,19 +65,30 @@ The NDIS can provide all people with disability with information and connections
                 <div className="tp-srv-process__list">
                   <ul>
                     <li>
-                      <i className="fa-solid fa-check"></i><b>National:</b> aThe NDIS is being introduced progressively across all states and territories.{" "}
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check"></i><b>Disability:</b>  The NDIS provides support to eligible people with intellectual, physical, sensory, cognitive and psychosocial disability. Early intervention supports can also be provided for eligible people with disability or children with developmental delay.
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check"></i><b>Insurance:</b>The NDIS gives all Australians peace of mind if they, their child or loved one is born with or acquires a permanent and significant disability, they will get the support they need.
+                      <i className="fa-solid fa-check"></i>
+                      <b>National:</b> aThe NDIS is being introduced
+                      progressively across all states and territories.{" "}
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-<b>Scheme:</b> The NDIS is not a welfare system. The NDIS is designed to help people get the support they need so their skills and independence improve over time.
-
-​
+                      <b>Disability:</b> The NDIS provides support to eligible
+                      people with intellectual, physical, sensory, cognitive and
+                      psychosocial disability. Early intervention supports can
+                      also be provided for eligible people with disability or
+                      children with developmental delay.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      <b>Insurance:</b>The NDIS gives all Australians peace of
+                      mind if they, their child or loved one is born with or
+                      acquires a permanent and significant disability, they will
+                      get the support they need.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      <b>Scheme:</b> The NDIS is not a welfare system. The NDIS
+                      is designed to help people get the support they need so
+                      their skills and independence improve over time. ​
                     </li>
                   </ul>
                 </div>
@@ -213,10 +230,19 @@ The NDIS can provide all people with disability with information and connections
               <div className="services-link tp-srv-link">
                 <span>
                   {/* Laboratories Used For Scientific Research : */}
-                  <Link className="tp-btn text-white" href="https://www.ndis.gov.au/applying-access-ndis/am-i-eligible">
-                   Check NDIS Eligibilty<i className="fa-solid fa-arrow-right"></i>
+                  <Link
+                    aria-label="Vserve"
+                    className="tp-btn text-white"
+                    href="https://www.ndis.gov.au/applying-access-ndis/am-i-eligible"
+                  >
+                    Check NDIS Eligibilty
+                    <i className="fa-solid fa-arrow-right"></i>
                   </Link>
-                  <Link className="tp-btn-second text-white" href="https://www.ndis.gov.au/applying-access-ndis/how-apply">
+                  <Link
+                    aria-label="Vserve"
+                    className="tp-btn-second text-white"
+                    href="https://www.ndis.gov.au/applying-access-ndis/how-apply"
+                  >
                     NDIS Application<i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </span>

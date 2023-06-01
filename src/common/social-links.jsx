@@ -29,14 +29,15 @@ const SocialLinks = () => {
   return (
     <>
       {social_links.map((l, i) => (
-        <a
+        <Link
+          aria-label="Vserve"
           key={i}
           href={l.link}
           className={l.color}
           target={l.target ? l.target : ""}
         >
           <i className={l.icon}></i>
-        </a>
+        </Link>
       ))}
     </>
   );

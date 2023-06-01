@@ -47,7 +47,7 @@ const footer_content = {
   copy_right_text: (
     <>
       © Copyright © {new Date().getFullYear()}
-      <Link href="/">Vserve</Link>.<i> All Rights Reserved Copyright</i>
+      <Link aria-label="Vserve" href="/">Vserve</Link>.<i> All Rights Reserved Copyright</i>
     </>
   ),
 };
@@ -66,12 +66,12 @@ const Footer = () => {
                   data-wow-delay=".2s"
                 >
                   <h4 className="footer-widget__title mb-30">
-                    <a href="index">
+                    <Link aria-label="Vserve" href="index">
                       <Image quality={20} placeholder="image" width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/white-logo.png" />
-                    </a>
+                    </Link>
                   </h4>
                   <p>
                     Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
@@ -95,7 +95,7 @@ const Footer = () => {
 
                       {
                         item.links.map((link, i) => <li key={i}>
-                        <Link href={`${link?.link ? link.link : "/"}`}>{link.name}</Link>
+                        <Link aria-label="Vserve" href={`${link?.link ? link.link : "/"}`}>{link.name}</Link>
                       </li> )
                       }
                     
@@ -113,22 +113,22 @@ const Footer = () => {
                   <div className="footer-widget__links">
                     <ul>
                       <li>
-                        <Link href="/contact">Contact us</Link>
+                        <Link aria-label="Vserve" href="/contact">Contact us</Link>
                       </li>
                       <li>
-                        <Link href="/about">Help & About us</Link>
+                        <Link aria-label="Vserve" href="/about">Help & About us</Link>
                       </li>
                       <li>
-                        <Link href="/shop-details">Shipping & Returns</Link>
+                        <Link aria-label="Vserve" href="/shop-details">Shipping & Returns</Link>
                       </li>
                       <li>
-                        <Link href="/shop-details">Refund Policy</Link>
+                        <Link aria-label="Vserve" href="/shop-details">Refund Policy</Link>
                       </li>
                       <li>
-                        <Link href="/about">About us</Link>
+                        <Link aria-label="Vserve" href="/about">About us</Link>
                       </li>
                       <li>
-                        <Link href="/services-details">Services</Link>
+                        <Link aria-label="Vserve" href="/services-details">Services</Link>
                       </li>
                     </ul>
                   </div>
@@ -143,15 +143,15 @@ const Footer = () => {
                   <div className="footer-widget__info">
                     <ul>
                       <li>
-                        <a href="#">address here </a>
+                        <Link aria-label="Vserve" href="#">address here </Link>
                       </li>
                       <li>
-                        <a href="tel:+9159008855">000 000 000</a>
+                        <Link aria-label="Vserve" href="tel:+9159008855">000 000 000</Link>
                       </li>
                       <li>
-                        <a href="mailto:support@mail.com">
+                        <Link aria-label="Vserve" href="mailto:support@mail.com">
                           support@mail.com
-                        </a>
+                        </Link>
                       </li>
                       <li>Office Hours: 8AM - 11PM</li>
                       <li>Sunday - Wekend Day</li>
@@ -196,13 +196,13 @@ const Footer = () => {
                 <div className="footer-widget__copyright-info info-direction">
                   <ul className="d-flex align-items-center">
                     <li>
-                      <a href="#">Terms and conditions</a>
+                      <Link aria-label="Vserve" href="#">Terms and conditions</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy policy</a>
+                      <Link aria-label="Vserve" href="#">Privacy policy</Link>
                     </li>
                     <li>
-                      <a href="shop">Pricing</a>
+                      <Link aria-label="Vserve" href="shop">Pricing</Link>
                     </li>
                   </ul>
                 </div>

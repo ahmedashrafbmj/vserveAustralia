@@ -21,7 +21,7 @@ const HeaderTwo = () => {
           <div className="row align-items-center">
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
-                <Link href="/">
+                <Link aria-label="Vserve" href="/">
                   <Image quality={10}
                     placeholder="image"
                     width={0}
@@ -39,7 +39,7 @@ const HeaderTwo = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <a className="tp-bt-btn" href="tel: 1300-343-481">
+                  <Link aria-label="Vserve" className="tp-bt-btn" href="tel: 1300-343-481">
                     <svg
                       width="14"
                       height="19"
@@ -59,7 +59,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span> 1300-343-481
-                  </a>
+                  </Link>
                 </div>
                 <button aria-label="vserve"
                   onClick={() => setIsActive(true)}
@@ -79,7 +79,7 @@ const HeaderTwo = () => {
           id="header-sticky"
         >
           <div className="header-logo-box">
-            <Link href="/">
+            <Link aria-label="Vserve" href="/">
             <Image quality={10}
                     placeholder="image"
                     width={0}
@@ -116,7 +116,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Help Desk :</span>
-                    <a href="tel: 1300-343-481"> 1300-343-481 </a>
+                    <Link aria-label="Vserve" href="tel: 1300-343-481"> 1300-343-481 </Link>
                   </div>
                 </div>
                 <div className="col-lg-8">
@@ -168,7 +168,7 @@ const HeaderTwo = () => {
                                 </div>
                                 <div className="tpcarticon__content">
                                   <span className="tpcarticon__content-title">
-                                    <Link href="/shop">Stethoscope Superb</Link>
+                                    <Link aria-label="Vserve" href="/shop">Stethoscope Superb</Link>
                                   </span>
                                   <div className="tpcarticon__cart-price">
                                     <span className="new">$162.8</span>
@@ -178,9 +178,9 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                                 <div className="tpcarticon__del">
-                                  <a href="#">
+                                  <Link aria-label="Vserve" href="#">
                                     <i className="far fa-trash-alt"></i>
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </li>
@@ -197,7 +197,7 @@ const HeaderTwo = () => {
                                 </div>
                                 <div className="tpcarticon__content">
                                   <span className="tpcarticon__content-title">
-                                    <Link href="/shop">Sphygmomanometer</Link>
+                                    <Link aria-label="Vserve" href="/shop">Sphygmomanometer</Link>
                                   </span>
                                   <div className="tpcarticon__cart-price">
                                     <span className="new">$139.9</span>
@@ -207,9 +207,9 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                                 <div className="tpcarticon__del">
-                                  <a href="#">
+                                  <Link aria-label="Vserve" href="#">
                                     <i className="far fa-trash-alt"></i>
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </li>
@@ -221,8 +221,8 @@ const HeaderTwo = () => {
                             </li>
                             <li>
                               <div className="tpcarticon__checkout-link">
-                                <Link href="/cart">Shopping Cart</Link>
-                                <Link className="sec-red-btn" href="/checkout">
+                                <Link aria-label="Vserve" href="/cart">Shopping Cart</Link>
+                                <Link aria-label="Vserve" className="sec-red-btn" href="/checkout">
                                   Checkout
                                 </Link>
                               </div>
@@ -231,7 +231,7 @@ const HeaderTwo = () => {
                         </div>
                       </div> */}
                     </div>
-                    <Link className="header-bottom-btn" href="/about">
+                    <Link aria-label="Vserve" className="header-bottom-btn" href="/about">
                       Book Appointment
                     </Link>
                   </div>
