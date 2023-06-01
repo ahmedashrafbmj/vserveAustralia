@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AppointForm = () => {
   return (
     <form onSubmit={(e) => e.preventDefault()}>
