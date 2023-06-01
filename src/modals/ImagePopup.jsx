@@ -3,7 +3,7 @@ import Lightbox from "react-18-image-lightbox";
 
 const ImagePopup = ({ images, setIsOpen, photoIndex, setPhotoIndex }) => {
   return (
-    <React.Fragment>
+    <>
       <Lightbox
         mainSrc={images[photoIndex]}
         nextSrc={images[(photoIndex + 1) % images.length]}
@@ -16,7 +16,7 @@ const ImagePopup = ({ images, setIsOpen, photoIndex, setPhotoIndex }) => {
           setPhotoIndex((photoIndex + 1) % images.length)
         }
       />
-    </React.Fragment>
+    </>
   );
 };
 

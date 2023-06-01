@@ -1,9 +1,8 @@
-import MobileMenus from '@/layout/header/mobile-menus';
-import ImagePopup from '@/modals/ImagePopup';
-import Image from 'next/image';
-import Link from 'next/link';
+import MobileMenus from "@/layout/header/mobile-menus";
+import ImagePopup from "@/modals/ImagePopup";
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
-
 
 const images = [
   {
@@ -14,13 +13,10 @@ const images = [
   },
   {
     img: "/assets/img/blog/blog-in-03.jpg",
-  }
+  },
 ];
 
-
 const Sidebar = ({ isActive, setIsActive }) => {
-
- 
   // photoIndex
   const [photoIndex, setPhotoIndex] = useState(null);
   // image open state
@@ -33,7 +29,6 @@ const Sidebar = ({ isActive, setIsActive }) => {
   //  images
   const img = images.map((item) => item.img);
 
- 
   return (
     <>
       <div
@@ -41,7 +36,8 @@ const Sidebar = ({ isActive, setIsActive }) => {
           isActive ? "tp-sidebar-opened" : ""
         }`}
       >
-        <button aria-label="vserve"
+        <button
+          aria-label="vserve"
           onClick={() => setIsActive(false)}
           className="tpsideinfo__close"
         >
@@ -49,10 +45,16 @@ const Sidebar = ({ isActive, setIsActive }) => {
         </button>
         <div className="tpsideinfo__logo mb-40">
           <Link href="/">
-            <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src="/assets/img/logo/white-logo.png"  />
+            <Image
+              quality={20}
+              placeholder="image"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto" }}
+              alt="vserve"
+              src="/assets/img/logo/white-logo.png"
+            />
           </Link>
         </div>
 
@@ -83,7 +85,10 @@ const Sidebar = ({ isActive, setIsActive }) => {
           <div className="tpsideinfo__content-inputarea-input">
             <form action="#">
               <input type="email" placeholder="Enter Mail" />
-              <button aria-label="vserve" className="tpsideinfo__content-inputarea-input-btn">
+              <button
+                aria-label="vserve"
+                className="tpsideinfo__content-inputarea-input-btn"
+              >
                 <i className="fa-solid fa-paper-plane"></i>
               </button>
             </form>
@@ -95,15 +100,20 @@ const Sidebar = ({ isActive, setIsActive }) => {
             {images.map((item, i) => (
               <a
                 key={i}
-               
                 style={{ cursor: "pointer" }}
                 onClick={() => handleImagePopup(i)}
                 className="popup-image"
               >
-                <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item.img}/>
+                <Image
+                  quality={20}
+                  placeholder="image"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  alt="vserve"
+                  src={item.img}
+                />
               </a>
             ))}
           </div>
@@ -131,11 +141,14 @@ const Sidebar = ({ isActive, setIsActive }) => {
 
       {/* image light box start */}
       {isOpen && (
-        <Image quality={20}Popup
+        <Image
+          quality={20}
+          Popup
           images={img}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}
           setPhotoIndex={setPhotoIndex}
+          alt="vserve"
         />
       )}
       {/* image light box end */}
