@@ -10,9 +10,9 @@ const Wrapper = dynamic(() => import('@/layout/wrapper'), {
   ssr: false,
   loading: () => <Loader/>
 });
-if (typeof window !== "undefined") {
-  require("bootstrap/dist/js/bootstrap");
-}
+// if (typeof window !== "undefined") {
+//   require("bootstrap/dist/js/bootstrap");
+// }
 
 
 export default function App({ Component, pageProps }) {
