@@ -23,7 +23,7 @@ module.exports = {
             './public/**/*.{css,scss}'
         ],
         defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        safelist: ["html", "body"]
+        safelist: ["html", "body","slider-content__bg"]
       }
     ],
   ]
