@@ -5,8 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
 
-
-
 // ts img
 const ts_img = [
   {
@@ -23,7 +21,7 @@ const ts_img = [
   },
 ];
 
- // ts_text
+// ts_text
 const ts_text = [
   {
     des: (
@@ -80,9 +78,8 @@ const ts_text = [
 ];
 
 const bg_style = {
-  backgroundImage: `url(/assets/img/shape/shape-bg-05.png)`
+  backgroundImage: `url(/assets/img/shape/shape-bg-05.png)`,
 };
-
 
 const Testimonial = ({ bg_img }) => {
   const [isLoop, setIsLoop] = useState(false);
@@ -146,10 +143,16 @@ const Testimonial = ({ bg_img }) => {
                   >
                     {ts_img.map((img, i) => (
                       <SwiperSlide key={i}>
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img}  />
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          alt="vserve"
+                          src={img.img}
+                        />
                       </SwiperSlide>
                     ))}
                   </Swiper>

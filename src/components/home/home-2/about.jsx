@@ -29,7 +29,7 @@ const About = () => {
     btn: "Talk with Expart",
 
     // booking data
-    booking_bg: "/assets/img/shape/shape-bg-04.png",
+    booking_bg: "/assets/img/shape/shape-bg-04.webp",
     b_sub_title: "book Free sampling",
     b_title: (
       <>
