@@ -75,7 +75,7 @@ const About = () => {
                   data-wow-delay=".3s"
                 >
                   <Image
-                    quality={20}
+                    quality={10}
                     placeholder="image"
                     width={0}
                     height={0}
@@ -97,7 +97,7 @@ const About = () => {
                   </div>
                   <div className="about-thumb-shape d-none d-md-block">
                     <Image
-                      quality={20}
+                      quality={10}
                       placeholder="image"
                       width={0}
                       height={0}
@@ -156,7 +156,7 @@ const About = () => {
                     </div>
                     <div className="cta-shape d-none d-md-block">
                       <Image
-                        quality={20}
+                        quality={10}
                         placeholder="image"
                         width={0}
                         height={0}
