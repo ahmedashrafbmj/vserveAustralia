@@ -1,44 +1,16 @@
 import dynamic from "next/dynamic";
-import Loader from "@/common/Loader";
 
-const Brands = dynamic(() => import("@/common/brands"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const About = dynamic(() => import("./about"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Appointment = dynamic(() => import("./appointment"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Choose = dynamic(() => import("./choose"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Gallery = dynamic(() => import("./gallery"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const HeroBanner = dynamic(() => import("./hero-banner"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const NewsLetter = dynamic(() => import("./news-letter"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Service = dynamic(() => import("./service"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Team = dynamic(() => import("./team"), { ssr: false, loading: () => <Loader /> });
-const Testimonial = dynamic(() => import("../../../common/testimonial"), {
-  ssr: false,
-  loading: () => <Loader />,
-});
-const Blog = dynamic(() => import("./blog"), { ssr: false, loading: () => <Loader /> });
+const Brands = dynamic(() => import("@/common/brands"));
+const About = dynamic(() => import("./about"));
+const Appointment = dynamic(() => import("./appointment"));
+const Choose = dynamic(() => import("./choose"));
+const Gallery = dynamic(() => import("./gallery"));
+const HeroBanner = dynamic(() => import("./hero-banner"));
+const NewsLetter = dynamic(() => import("./news-letter"));
+const Service = dynamic(() => import("./service"));
+const Team = dynamic(() => import("./team"));
+const Testimonial = dynamic(() => import("../../../common/testimonial"));
+const Blog = dynamic(() => import("./blog"));
 
 const HomeTwo = () => {
   return (
