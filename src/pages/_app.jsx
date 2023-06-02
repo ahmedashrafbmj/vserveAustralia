@@ -1,5 +1,9 @@
 import Loader from "@/common/Loader";
-import "../styles/index.scss";
+// for production
+import "../styles/index.css";
+// for developemet
+// import "../styles/index.scss";
+
 import dynamic from 'next/dynamic';
 
 const LayoutTwo = dynamic(() => import('@/layout/layout-2'), {
