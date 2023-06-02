@@ -1,8 +1,8 @@
 import Loader from "@/common/Loader";
 // for production
-import "../styles/index.css";
+// import "../styles/index.css";
 // for developemet
-// import "../styles/index.scss";
+import "../styles/index.scss";
 
 import dynamic from 'next/dynamic';
 
