@@ -1,10 +1,10 @@
 @font-face {
   font-family: "flaticon";
   src: 
-    url("../fonts/flaticon.woff") format("woff"),
-    url("../fonts/flaticon.ttf") format("ttf"),
-    url("../fonts/flaticon.woff2") format("woff2"),
-    url("../fonts/flaticon.eot") format("embedded-opentype");
+    url("/public/assets/fonts/flaticon.woff") format("woff"),
+    url("/public/assets/fonts/flaticon.ttf") format("ttf"),
+    url("/public/assets/fonts/flaticon.woff2") format("woff2"),
+    url("/public/assets/fonts/flaticon.eot") format("embedded-opentype");
     font-display: swap;
 }
 
