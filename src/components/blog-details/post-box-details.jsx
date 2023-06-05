@@ -31,6 +31,7 @@ const PostBoxDetails = () => {
                         style={{ width: "100%", height: "auto" }}
                         alt="vserve"
                         src="/assets/img/blog/blog-in-01.jpg"
+                        
                       />
                     </Link>
                   </div>

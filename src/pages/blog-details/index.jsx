@@ -11,13 +11,11 @@ import Loader from "@/common/Loader";
 import dynamic from "next/dynamic";
 const index = () => {
   return (
-    <Wrapper>
-      <LayoutTwo>
+    <>
 
       <SEO pageTitle="Blog Details" />
       <BlogDetails />
-      </LayoutTwo>
-    </Wrapper>
+    </>
   );
 };
 
