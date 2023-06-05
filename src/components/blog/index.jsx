@@ -1,6 +1,4 @@
-import FooterFour from "@/layout/footer/footer-4";
-import HeaderTwo from "@/layout/header/header-two";
-  
+
 import Banner from "./banner";
 import PostBox from "./post-box";
 

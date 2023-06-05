@@ -1,3 +1,5 @@
+import dynamic from "next/dynamic";
+
   
 const FooterTwo = dynamic(() => import("./footer/footer-2")) ;
 const HeaderTwo = dynamic(() => import("./header/header-two")) ;
