@@ -1,6 +1,6 @@
 
 
-import  Brands from "@/common/brands";
+// import  Brands from "@/common/brands";
 import  About from "./about";
 import  Appointment from "./appointment";
 import  Choose from "./choose";
@@ -8,7 +8,7 @@ import  Gallery from "./gallery";
 import  HeroBanner from "./hero-banner";
 import  NewsLetter from "./news-letter";
 import  Service from "./service";
-import  Team from "./team";
+// import  Team from "./team";
 import  Testimonial from "../../../common/testimonial";
 import  Blog from "./blog";
 
