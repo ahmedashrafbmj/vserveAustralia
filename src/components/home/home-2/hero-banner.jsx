@@ -171,6 +171,7 @@ const HeroBanner = () => {
                           style={{ width: "100%", height: "auto" }}
                           alt="vserve"
                           src={item.img_1}
+                          
                         />
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
