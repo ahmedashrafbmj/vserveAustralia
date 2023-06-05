@@ -4,7 +4,7 @@ import BlogSearch from "../blog/blog-search";
 import Category from "../blog/category";
 import RecentPost from "../blog/recent-post";
 import Tags from "../blog/tags";
-import CommentForm from "../forms/comment-form";
+// import CommentForm from "../forms/comment-form";
 import Image from "next/image";
 
 const PostBoxDetails = () => {
@@ -31,7 +31,7 @@ const PostBoxDetails = () => {
                         style={{ width: "100%", height: "auto" }}
                         alt="vserve"
                         src="/assets/img/blog/blog-in-01.jpg"
-                        
+
                       />
                     </Link>
                   </div>
