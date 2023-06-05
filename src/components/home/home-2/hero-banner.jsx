@@ -171,6 +171,7 @@ const HeroBanner = () => {
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
                         <Image
+                          priority={true}
                           quality={20}
                           placeholder="image"
                           width={0}
