@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import Image from "next/image";
-import { useMediaQuery } from "react-responsive";
 
 const hero_slider = [
   {
@@ -84,8 +83,6 @@ const social_links = [
   },
 ];
 const HeroBanner = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
-  console.log(isMobile)
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
     setIsLoop(true);
@@ -138,7 +135,6 @@ const HeroBanner = () => {
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1">
                       <div className="slider-content pt-60">
-                        <h1/>
                         <h2 className="slider-content__title mb-45">
                           {item.title}
                         </h2>
@@ -166,7 +162,7 @@ const HeroBanner = () => {
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
                         <Image
-                          priority={isMobile}
+                          priority={true}
                           quality={20}
                           placeholder="image"
                           width={0}
@@ -175,12 +171,11 @@ const HeroBanner = () => {
                           style={{ width: "100%", height: "auto" }}
                           alt="vserve"
                           src={item.img_1}
-
                         />
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
                         <Image
-                          priority={isMobile}
+                          priority={true}
                           quality={20}
                           placeholder="image"
                           width={0}
