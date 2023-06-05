@@ -58,6 +58,7 @@ const Gallery = () => {
                   <span className="tp-section__sub-title sub-title-white left-line-white right-line-white mb-25">
                     Work Gallery
                   </span>
+                  <h1/>
                   <h3 className="tp-section__title title-white mb-80">
                     VServe App Gallery
                   </h3>

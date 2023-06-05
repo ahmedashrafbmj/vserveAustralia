@@ -13,6 +13,7 @@ const Service = () => {
                 <span className="tp-section__sub-title left-line mb-20">
                   our Services
                 </span>
+                <h1/>
                 <h3 className="tp-section__title mb-30">Service Area</h3>
               </div>
             </div>

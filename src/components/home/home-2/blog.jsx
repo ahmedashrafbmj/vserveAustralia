@@ -79,6 +79,7 @@ const Blog = () => {
                 <span className="tp-section__sub-title left-line mb-25">
                   Waht’s New
                 </span>
+                <h1/>
                 <h3 className="tp-section__title mb-65">Blog & Article</h3>
               </div>
             </div>

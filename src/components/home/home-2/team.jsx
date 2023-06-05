@@ -54,6 +54,7 @@ const Team = () => {
                   <span className="tp-section__sub-title left-line right-line mb-25">
                     OUr Team
                   </span>
+                  <h1/>
                   <h3 className="tp-section__title mb-70">Our Specialist</h3>
                 </div>
               </div>

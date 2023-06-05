@@ -16,6 +16,7 @@ const Choose = () => {
                 <span className="tp-section__sub-title left-line right-line mb-25">
                   who we are
                 </span>
+                <h1/>
                 <h3 className="tp-section__title mb-75">Why Choose Us</h3>
               </div>
             </div>

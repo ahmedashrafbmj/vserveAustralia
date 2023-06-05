@@ -118,6 +118,7 @@ const About = () => {
                     <span className="tp-section__sub-title left-line mb-25">
                       {sub_title}
                     </span>
+                    <h1/>
                     <h3 className="tp-section__title mb-45">{title}</h3>
                     <i>{des_1}</i>
                     <p className=" mr-20 mb-35">{dex_2}</p>
@@ -148,6 +149,7 @@ const About = () => {
                         {b_sub_title}
                       </span>
                     </div>
+                    <h1/>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
                       <button aria-label="vserve" className="tp-btn-second">
