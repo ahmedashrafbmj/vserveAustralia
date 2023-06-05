@@ -102,6 +102,7 @@ const HeroBanner = () => {
                       target={link.target}
                       className={link.color}
                       href={link.link}
+                      prefetch={false}
                     >
                       <i className={link.icon}></i> {link.name}
                     </Link>
@@ -143,6 +144,7 @@ const HeroBanner = () => {
                             aria-label="Vserve"
                             className="tp-btn"
                             href="/contact"
+                            prefetch={false}
                           >
                             {item.appointment}
                           </Link>
@@ -150,6 +152,7 @@ const HeroBanner = () => {
                             aria-label="Vserve"
                             className="tp-btn-second ml-25"
                             href="/about"
+                            prefetch={false}
                           >
                             {item.about}
                           </Link>

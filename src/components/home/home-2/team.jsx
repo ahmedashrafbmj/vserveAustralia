@@ -83,7 +83,7 @@ const Team = () => {
                       </div>
                       <div className="team-item__content">
                         <h5 className="team-item__title mb-15">
-                          <Link aria-label="Vserve" href="/team-details">
+                          <Link aria-label="Vserve" href="/team-details" prefetch={false}>
                             {item.name}
                           </Link>
                         </h5>
@@ -95,6 +95,7 @@ const Team = () => {
                               key={i}
                               href={l.link}
                               target={l.target}
+                              prefetch={false}
                             >
                               <i className={l.icon}></i>
                             </Link>

@@ -84,13 +84,13 @@ const Gallery = () => {
                     />
                     <div className="gallery-item__content">
                       <h4 className="gallery-item__title">
-                        <Link aria-label="Vserve" href="/portfolio-details">
+                        <Link aria-label="Vserve" href="/portfolio-details" prefetch={false}>
                           {item.title}
                         </Link>
                       </h4>
                       <span>
                         <i className="fa-solid fa-tag"></i>
-                        <Link aria-label="Vserve" href="/services-details">
+                        <Link aria-label="Vserve" href="/services-details" prefetch={false}>
                           Genetics
                         </Link>
                       </span>
@@ -103,6 +103,7 @@ const Gallery = () => {
               <div className="col-lg-12">
                 <div className="gallery-btn text-center mt-30">
                   <Link
+                  prefetch={false}
                     aria-label="Vserve"
                     href="/portfolio-details"
                     className="tp-btn"

@@ -123,7 +123,7 @@ const About = () => {
                     <p className=" mr-20 mb-35">{dex_2}</p>
                   </div>
                   <div className="about-content__btn">
-                    <Link aria-label="Vserve" href="/about" className="tp-btn">
+                    <Link aria-label="Vserve" href="/about" className="tp-btn" prefetch={false}>
                       {btn}
                     </Link>
                   </div>

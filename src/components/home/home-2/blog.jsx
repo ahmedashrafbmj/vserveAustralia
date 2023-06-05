@@ -117,7 +117,7 @@ const Blog = () => {
                     </div>
                     <div className="blog-item__content">
                       <h5 className="blog-item__title mb-15">
-                        <Link aria-label="Vserve" href="/blog-details">
+                        <Link aria-label="Vserve" href="/blog-details" prefetch={false}>
                           {item.title}
                         </Link>
                       </h5>
@@ -143,7 +143,7 @@ const Blog = () => {
               <div className="blog-link text-center">
                 <span>
                   Join our Community for Get Update :
-                  <Link aria-label="Vserve" href="/blog-details">
+                  <Link aria-label="Vserve" href="/blog-details" prefetch={false}>
                     Join our Community
                     <i className="fa-regular fa-arrow-right"></i>
                   </Link>
