@@ -1,6 +1,5 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "public/assets/css/flaticon.css";
 import "public/assets/css/font-awesome-pro.css";
 import 'swiper/css/bundle';
 import 'node_modules/react-modal-video/scss/modal-video.scss';

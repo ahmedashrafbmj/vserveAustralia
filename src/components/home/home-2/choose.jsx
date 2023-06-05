@@ -34,7 +34,7 @@ const Choose = () => {
                     <Progress
                       type="circle"
                       percent={80}
-                      width={165}
+                      size={165}
                       height={165}
                       strokeWidth={3.2}
                       style={{ fontSize: 33 }}
