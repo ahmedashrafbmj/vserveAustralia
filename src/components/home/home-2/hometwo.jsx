@@ -1,16 +1,16 @@
-import dynamic from "next/dynamic";
 
-const Brands = dynamic(() => import("@/common/brands"));
-const About = dynamic(() => import("./about"));
-const Appointment = dynamic(() => import("./appointment"));
-const Choose = dynamic(() => import("./choose"));
-const Gallery = dynamic(() => import("./gallery"));
-const HeroBanner = dynamic(() => import("./hero-banner"));
-const NewsLetter = dynamic(() => import("./news-letter"));
-const Service = dynamic(() => import("./service"));
-const Team = dynamic(() => import("./team"));
-const Testimonial = dynamic(() => import("../../../common/testimonial"));
-const Blog = dynamic(() => import("./blog"));
+
+import  Brands from "@/common/brands";
+import  About from "./about";
+import  Appointment from "./appointment";
+import  Choose from "./choose";
+import  Gallery from "./gallery";
+import  HeroBanner from "./hero-banner";
+import  NewsLetter from "./news-letter";
+import  Service from "./service";
+import  Team from "./team";
+import  Testimonial from "../../../common/testimonial";
+import  Blog from "./blog";
 
 const HomeTwo = () => {
   return (
