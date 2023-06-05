@@ -163,7 +163,7 @@ const HeroBanner = () => {
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
                         <Image
-                          // priority={true}
+                          priority={true}
                           quality={20}
                           placeholder="image"
                           width={0}
@@ -177,7 +177,7 @@ const HeroBanner = () => {
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
                         <Image
-                          // priority={true}
+                          priority={true}
                           quality={20}
                           placeholder="image"
                           width={0}
