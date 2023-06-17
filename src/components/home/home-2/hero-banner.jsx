@@ -14,8 +14,8 @@ const hero_slider = [
     ),
     des: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
+       Vserve Australia: Connecting individuals with mental health conditions, physical impairments, {" "}
+        <br /> and special needs to essential support services for a fulfilling life.
       </>
     ),
     appointment: "Appointment",
@@ -32,9 +32,9 @@ const hero_slider = [
     ),
     des: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
-      </>
+      Vserve Australia: Connecting individuals with mental health conditions, physical impairments, {" "}
+       <br /> and special needs to essential support services for a fulfilling life.
+     </>
     ),
     appointment: "Appointment",
     about: "About us",

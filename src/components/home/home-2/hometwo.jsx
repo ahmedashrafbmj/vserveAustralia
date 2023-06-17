@@ -24,7 +24,7 @@ const HomeTwo = () => {
       {/* <Brands border_style={true} /> */}
       {/* <Team /> */}
       <Testimonial bg_img={true} />
-      <Blog />
+      {/* <Blog /> */}
       <NewsLetter />
     </>
   );

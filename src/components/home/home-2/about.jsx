@@ -11,19 +11,15 @@ const About = () => {
     popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
     about_thumb: "/assets/img/about/about-bg-03.png",
     title: "Best Laboratory For Testing And Research",
-    sub_title: "About",
+    sub_title: "About Vserve",
     des_1: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the
-        generation of accurate and precise findings
+       We Serve With Care
       </>
     ),
     dex_2: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscipit loborti
-        excommodo habent claritatem insitamconse quat.Exerci tationlobortis nisl
-        aliquip ex ea commodo habent claritatem insitamconse quat.
+       Vserve Australia is a service which connects the mental health condition, the physically impaired and those with special needs to services that provide them with assistance. We understand that individuals and families require lots of support and care to be able to enjoy themselves and live the life they desire. Vserve Australia is an independent service that has been successfully established and running within all areas of the Sydney region.
       </>
     ),
     btn: "Talk with Expart",

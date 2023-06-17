@@ -2,12 +2,11 @@ const service_data = [
   {
     id: 1,
     icon: "flaticon-hemoglobin-test-meter",
-    title: "Hemoglobin Test",
+    title: "DOMESTIC ASSISTANCE",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+      We provide our clients with a <br /> wide range of assistance in their daily chores  <br /> ranging from cleaning to cooking
+       
       </>
     ),
     color_icon: "",
@@ -17,12 +16,10 @@ const service_data = [
   {
     id: 2,
     icon: "flaticon-blood-test",
-    title: "Blood Testing",
+    title: "NURSING",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+       For clients needing special care we provide home nursing services through our qualified staff.These may include but are not limited to Aged care, Post-Operative care, Rehabilitation support, Dementia and Parkisnson's disease etc
       </>
     ),
     color_icon: "pink-icon",
@@ -32,12 +29,10 @@ const service_data = [
   {
     id: 3,
     icon: "flaticon-biochemistry",
-    title: "BIOCHEMISTRY",
+    title: "INDEPENDENT LIVING",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+   We strive to make our clients as autonomous as possible by facilitating them with state of the art equipment to achieve their goals and passions independently
       </>
     ),
 
@@ -48,12 +43,10 @@ const service_data = [
   {
     id: 4,
     icon: "flaticon-dna-1",
-    title: "Microbiology",
+    title: "MEAL PREP & SHOPPING",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+        We care about our client's health and needs by providing them help to shop  moreover our nutritionists can cater  personalized healthy meals at the most reasonable prices
       </>
     ),
 
@@ -64,12 +57,12 @@ const service_data = [
   {
     id: 5,
     icon: "flaticon-heart",
-    title: "Histopatology",
+    title: "THERAPY SUPPORT",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+      For clients needing special behavioral
+
+support we offer therapy services ranging from psychological help in phases of anxiety, depression and other disorders to help them thrive socially
       </>
     ),
 
@@ -80,12 +73,10 @@ const service_data = [
   {
     id: 6,
     icon: "flaticon-dna",
-    title: "Biochemistry",
+    title: "HOME& GARDEN MAINTENANCE",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+      We aim to keep our clients surroundings well kept and livable. Thus regular gardening and maintenance services are ensured.
       </>
     ),
 
@@ -96,12 +87,10 @@ const service_data = [
   {
     id: 7,
     icon: "flaticon-dna-1",
-    title: "Genetics",
+    title: "SOCIAL SUPPORT",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+    With inclusion of social activities such as movies, walks, sight seeing, shopping & eating out we make sure our clients never feel differentiated and enjoy being part of the world
       </>
     ),
 
@@ -112,12 +101,10 @@ const service_data = [
   {
     id: 8,
     icon: "flaticon-ct-scan",
-    title: "Blood Testing",
+    title: "ALLIED HEALTH",
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor. Vivamus <br />
-        quis ex nulla.
+    Our plans include regular analysis of clients progress through experts. Specialized sessions of physiotherapy and occupational therapy have proven positive in capacity building
       </>
     ),
 
