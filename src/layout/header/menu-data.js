@@ -85,7 +85,7 @@ const menu_data = [
     id: 6,
     mega_menu: false,
     has_dropdown: false,
-    title: "Contact",
+    title: "Contact / Feedback",
     link: "/contact",
     active: "",
   },
@@ -111,6 +111,14 @@ const menu_data = [
     has_dropdown: false,
     title: "FAQ",
     link: "/faq",
+    active: "",
+  },
+  {
+    id:10,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "Career",
+    link: "/Career",
     active: "",
   },
 ];
