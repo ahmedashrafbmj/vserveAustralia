@@ -19,7 +19,7 @@ const service_data = [
     title: "NURSING",
     des: (
       <>
-       For clients needing special care we provide home nursing services through our qualified staff.These may include but are not limited to Aged care, Post-Operative care, Rehabilitation support, Dementia and Parkisnson's disease etc
+       For clients needing special care we provide home nursing services through our qualified staff.These may include but are not limited to Aged care, Post-Operative care, Rehabilitation support, Dementia and Parkisnson s disease etc
       </>
     ),
     color_icon: "pink-icon",
@@ -46,7 +46,7 @@ const service_data = [
     title: "MEAL PREP & SHOPPING",
     des: (
       <>
-        We care about our client's health and needs by providing them help to shop  moreover our nutritionists can cater  personalized healthy meals at the most reasonable prices
+        We care about our client{"'"}s health and needs by providing them help to shop  moreover our nutritionists can cater  personalized healthy meals at the most reasonable prices
       </>
     ),
 

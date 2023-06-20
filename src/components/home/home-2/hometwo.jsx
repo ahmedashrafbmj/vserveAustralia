@@ -11,13 +11,15 @@ import  Service from "./service";
 // import  Team from "./team";
 import  Testimonial from "../../../common/testimonial";
 import  Blog from "./blog";
+import ServiceArea from "@/components/services/service/service-area";
 
 const HomeTwo = () => {
   return (
     <>
       <HeroBanner />
       <About />
-      <Service />
+      {/* {/* <Service /> */}
+         <ServiceArea /> 
       <Gallery />
       <Choose />
       <Appointment />
