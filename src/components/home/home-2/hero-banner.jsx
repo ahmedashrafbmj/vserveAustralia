@@ -14,32 +14,70 @@ const hero_slider = [
     ),
     des: (
       <>
-       Vserve Australia: Connecting individuals with mental health conditions, physical impairments, {" "}
-        <br /> and special needs to essential support services for a fulfilling life.
+      <blockquote class="blockquote">
+
+       <h3 className="">{"'"}Disability need not to be an obstacle in our success{"'"}</h3>
+      </blockquote>
+       <pre>-Stephen Hawkings-</pre>
       </>
     ),
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-1.png",
-    img_2: "/assets/img/slider/slider-bg-2.png",
+    img_1: "/assets/img/home_slider/1.png",
+    // img_2: "/assets/img/home_slider/2.png",
   },
   {
     id: 2,
     title: (
       <>
-        Our Passion is to <br /> Give you Better <br /> Service
+     {'"'}It is never too late to be what you might have been{'"'}
       </>
     ),
     des: (
       <>
-      Vserve Australia: Connecting individuals with mental health conditions, physical impairments, {" "}
-       <br /> and special needs to essential support services for a fulfilling life.
+      <pre>-George Eliot-</pre>
      </>
     ),
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-3.png",
-    img_2: "/assets/img/slider/slider-bg-2.png",
+    img_1: "/assets/img/home_slider/2.png",
+    // img_2: "/assets/img/home_slider/4.png",
+  },
+
+  {
+    id: 3,
+    title: (
+      <>
+        <h3>Get free of cost {" "};step by step assistance to apply for MyAgedCare  NDIS</h3>
+
+      </>
+    ),
+    des: (
+      <>
+      {/* <pre>-George Eliot-</pre> */}
+     </>
+    ),
+    appointment: "Appointment",
+    about: "About us",
+    img_1: "/assets/img/home_slider/4.png",
+    // img_2: "/assets/img/home_slider/4.png",
+  },
+  {
+    id: 4,
+    title: (
+      <>
+      <h3>{'"'}Choose not to place {'"'}dis{'"'} in your ability{'"'}</h3>
+      </>
+    ),
+    des: (
+      <>
+      <pre>-Robert M. Hensel-</pre>
+     </>
+    ),
+    appointment: "Appointment",
+    about: "About us",
+    img_1: "/assets/img/home_slider/5.png",
+    // img_2: "/assets/img/home_slider/4.png",
   },
 ];
 
@@ -160,7 +198,8 @@ const HeroBanner = () => {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
-                      <div className="slider-content__bg">
+                      <div className="slider-content__bg   "  >
+                        
                         <Image
                           priority={true}
                           quality={20}
@@ -173,7 +212,7 @@ const HeroBanner = () => {
                           src={item.img_1}
                         />
                       </div>
-                      <div className="slider-content__shape d-none d-md-block">
+                      {/* <div className="slider-content__shape d-none d-md-block">
                         <Image
                           priority={true}
                           quality={20}
@@ -185,7 +224,7 @@ const HeroBanner = () => {
                           alt="vserve"
                           src={item.img_2}
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

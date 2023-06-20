@@ -45,7 +45,7 @@ const Choose = () => {
                   </div>
                   
                 </div>
-                <span className="skill-item-title">MEDICAL RESEARCH</span>
+                <span className="skill-item-title">Health and Wellbeing</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6">
@@ -66,7 +66,7 @@ const Choose = () => {
                   />
                   
                 </div>
-                <span className="skill-item-title">BIOTECHNOLOGY</span>
+                <span className="skill-item-title">Speech Therapy</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6">
@@ -87,7 +87,7 @@ const Choose = () => {
                   />
                   
                 </div>
-                <span className="skill-item-title">HISTOPATOLOGY</span>
+                <span className="skill-item-title">Plan Management</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6">
@@ -108,7 +108,7 @@ const Choose = () => {
                   />
                  
                 </div>
-                <span className="skill-item-title">ALLERGOLOGY</span>
+                <span className="skill-item-title">Support Coordination</span>
               </div>
             </div>
           </div>

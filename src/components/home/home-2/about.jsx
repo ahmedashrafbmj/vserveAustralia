@@ -7,14 +7,14 @@ const About = () => {
   // about content data
   const about_content = {
     about_bg: "/assets/img/shape/shape-bg-05.png",
-    about_img: "/assets/img/about/about-bg-02.png",
+    about_img: "/assets/img/home_slider/3.png",
     popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
-    about_thumb: "/assets/img/about/about-bg-03.png",
-    title: "Best Laboratory For Testing And Research",
+    about_thumb: "/assets/img/home_slider/6.png",
+    title: " We Serve With Care",
     sub_title: "About Vserve",
     des_1: (
       <>
-       We Serve With Care
+       {/* We Serve With Care */}
       </>
     ),
     dex_2: (
@@ -25,20 +25,20 @@ const About = () => {
     btn: "Talk with Expart",
 
     // booking data
-    booking_bg: "/assets/img/shape/shape-bg-04.webp",
-    b_sub_title: "book Free sampling",
+    booking_bg: "/assets/img/home_slider/11.jpg",
+    b_sub_title: "Book Free Consultation ",
     b_title: (
       <>
-        Free Sampling at your <br /> Home Adress
+We care For You  <br /> 
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/img/logo/logo.png",
   };
   const {
     about_bg,
     about_img,
-    popup_video,
+    // popup_video,
     about_thumb,
     sub_title,
     title,
@@ -81,16 +81,8 @@ const About = () => {
                     src={about_img}
                   />
 
-                  <div className="about-video">
-                    <button
-                      aria-label="vserve"
-                      onClick={() => setIsVideoOpen(true)}
-                      className="popup-video"
-                      href={popup_video}
-                    >
-                      <i className="fa-solid fa-play"></i>
-                    </button>
-                  </div>
+                  {/* 
+                   */}
                   <div className="about-thumb-shape d-none d-md-block">
                     <Image
                       quality={10}
@@ -98,7 +90,7 @@ const About = () => {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: "100%", height: "auto" }}
+                      style={{ width: "40%", height: "auto" }}
                       alt="vserve"
                       src={about_thumb}
                     />

@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <>
       <section
-        className="news-letter-area pt-110 pb-110 news-round-shape p-relative tp-box-space mr-30 ml-30 theme-light-bg fix"
+        className="news-letter-area pt-110 pb-110 news-round-shape p-relative tp-box-space  mt-5 theme-light-bg fix"
         style={{
           backgroundImage: `url("/assets/img/shape/shape-bg-05.png")`,
         }}

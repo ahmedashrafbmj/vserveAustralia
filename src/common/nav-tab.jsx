@@ -1,6 +1,4 @@
 import Image from "next/image";
-  
-
 
 // progress_data
 const progress_data = [
@@ -8,10 +6,11 @@ const progress_data = [
     id: 1,
     icon: "flaticon-approval",
     img: "/assets/img/shape/navtabs-01.png",
-    title: "Generate Proposal",
+    title: "Equality",
     des: (
       <>
-        Testing Begins many varios <br /> suffered alten in some
+        We value and respect all individuals equally, <br />
+        promoting a culture of inclusivity and fairness.
       </>
     ),
   },
@@ -19,11 +18,14 @@ const progress_data = [
     id: 2,
     icon: "flaticon-flask",
     img: "/assets/img/shape/navtabs-01.png",
-    title: "Testing Begins",
+    title: "Professional Service",
     des: (
       <>
-        There are many varios passages <br />
-        suffered alten in some
+        Our centers provide hands-on treatment, coupled with educational
+        resources that empower participants to actively <br /> engage in their
+        recovery and future physical and mental well-being. We aim to equip
+        individuals with the tools and knowledge necessary to become active
+        participants in their own health journey.
       </>
     ),
   },
@@ -31,11 +33,13 @@ const progress_data = [
     id: 3,
     icon: "flaticon-report",
     img: "",
-    title: "Reports Delivered",
+    title: "Diversity",
     des: (
       <>
-        There are many varios passages <br />
-        suffered alten in some
+        With the expertise of our multilingual team, we offer therapy, advocacy,
+        accessibility, and accommodation services to Australians with diverse
+        disabilities, <br /> acknowledging and celebrating their unique
+        backgrounds and experiences.
       </>
     ),
   },
@@ -47,60 +51,52 @@ const tab_content = [
     id: 1,
     tab_id: "profile-tab-pane",
     aria_labelledby: "profile-tab",
-    header: (
-      <>
-        Your full service lab for clinical trials. Our process is to ensure the
-        generation of <br /> accurate and precise findings
-      </>
-    ),
+    header: <>Empowering Individuals to Overcome Challenges and Embrace Life</>,
     title: "Our Mission is Give You Always Best Results.",
     des_1: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscipit loborti
-        excommodo habent claritatem insitamconse quat.Exerci tationlobortis nisl
-        aliquip ex ea commodo habent claritatem insitamconse quat.
+        As healthcare professionals, our mission is to assist our participants
+        in reclaiming their lifelong journey towards health, fitness, and
+        psychological well-being. We focus on the strengths of Australians while
+        helping individuals overcome any disadvantages they may face, enhancing
+        their overall quality of life.
       </>
     ),
     des_2: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscip
+        {/* Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
+        claritatem insitamconse quat.Exerci tation ullamcorper suscip */}
       </>
     ),
     images: [
-      { order: "order-lg-1", img: "/assets/img/tab/tab-thumb-03.jpg" },
-      { order: "order-lg-3", img: "/assets/img/tab/tab-thumb-04.jpg" },
+      { order: "order-lg-1", img: "/assets/img/home_slider/9.jpg" },
+      { order: "order-lg-3", img: "/assets/img/home_slider/8.jpg" },
     ],
   },
   {
     id: 2,
     tab_id: "contact-tab-pane",
     aria_labelledby: "contact-tab",
-    header: (
-      <>
-        Your full service lab for clinical trials. Our process is to ensure the
-        generation of <br /> accurate and precise findings
-      </>
-    ),
+    header: <>Promoting Excellence through Innovation and Exceptional Care</>,
     title: "We are Trusted by over 25000+ of customers",
     des_1: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscipit loborti
-        excommodo habent claritatem insitamconse quat.Exerci tationlobortis nisl
-        aliquip ex ea commodo habent claritatem insitamconse quat.
+        At our organization, we strive to become a sought-after NDIS service
+        provider by attracting, rewarding, and retaining highly skilled staff
+        who are dedicated to delivering exceptional services to our
+        participants. We proactively develop a unique and comprehensive
+        human-centered approach tailored to each individual.
       </>
     ),
     des_2: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscip
+        {/* Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
+        claritatem insitamconse quat.Exerci tation ullamcorper suscip */}
       </>
     ),
     images: [
-      { order: "order-lg-1", img: "/assets/img/tab/tab-thumb-01.jpg" },
-      { order: "order-lg-3", img: "/assets/img/tab/tab-thumb-02.jpg" },
+      { order: "order-lg-1", img: "/assets/img/home_slider/13.jpg" },
+      { order: "order-lg-3", img: "/assets/img/home_slider/15.jpg" },
     ],
   },
 ];
@@ -111,7 +107,8 @@ const NavTab = () => {
         <div className="container">
           <ul className="nav tp-nav-tavs mb-70" id="myTab" role="tablist">
             <li className="nav-item" role="presentation">
-              <button aria-label="vserve"
+              <button
+                aria-label="vserve"
                 className="nav-link active"
                 id="home-tab"
                 data-bs-toggle="tab"
@@ -122,11 +119,12 @@ const NavTab = () => {
                 aria-selected="true"
                 tabIndex="-1"
               >
-                Our Process
+                Our Approach
               </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button aria-label="vserve"
+              <button
+                aria-label="vserve"
                 className="nav-link"
                 id="profile-tab"
                 data-bs-toggle="tab"
@@ -137,11 +135,12 @@ const NavTab = () => {
                 aria-selected="false"
                 tabIndex="-1"
               >
-                OUr Mission
+                Our Mission
               </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button aria-label="vserve"
+              <button
+                aria-label="vserve"
                 className="nav-link"
                 id="contact-tab"
                 data-bs-toggle="tab"
@@ -152,7 +151,7 @@ const NavTab = () => {
                 aria-selected="false"
                 tabIndex="-1"
               >
-                OUr Value
+                Our Vision
               </button>
             </li>
           </ul>
@@ -163,10 +162,10 @@ const NavTab = () => {
               role="tabpanel"
               aria-labelledby="home-tab"
             >
-              <span className="nav-info d-flex justify-content-center text-center mb-75">
+              {/* <span className="nav-info d-flex justify-content-center text-center mb-75">
                 Your full service lab for clinical trials. Our process is to
                 ensure the generation of <br /> accurate and precise findings
-              </span>
+              </span> */}
               <div className="row">
                 {progress_data.map((item) => (
                   <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
@@ -182,10 +181,16 @@ const NavTab = () => {
                       </div>
                       {item.img && (
                         <div className="navtabs__shape d-none d-lg-block">
-                          <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={item?.img}  />
+                          <Image
+                            quality={20}
+                            placeholder="image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: "100%", height: "auto" }}
+                            alt="vserve"
+                            src={item?.img}
+                          />
                         </div>
                       )}
                     </div>
@@ -223,10 +228,16 @@ const NavTab = () => {
                       className={`col-xl-3 col-lg-3 col-md-6 ${img.order}`}
                     >
                       <div className="nabthumb mb-30">
-                        <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve" src={img.img} />
+                        <Image
+                          quality={20}
+                          placeholder="image"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "25rem" }}
+                          alt="vserve"
+                          src={img.img}
+                        />
                       </div>
                     </div>
                   ))}

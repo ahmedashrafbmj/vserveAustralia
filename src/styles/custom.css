@@ -1,0 +1,6 @@
+.appoint-thumb{
+    position: relative;
+    width: 40rem;
+    background-color: transparent;
+    z-index: -1;
+}

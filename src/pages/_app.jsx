@@ -9,6 +9,8 @@ import 'node_modules/react-18-image-lightbox/src/style.css';
 import 'node_modules/react-circular-progressbar/dist/styles.css';
 // import 'public/assets/scss/main.scss';
 import '../styles/index.scss'
+import '../styles/custom.css'
+
 
 
 // import dynamic from 'next/dynamic';

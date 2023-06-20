@@ -20,7 +20,7 @@ const HomeTwo = () => {
       <About />
       {/* {/* <Service /> */}
          <ServiceArea /> 
-      <Gallery />
+      {/* <Gallery /> */}
       <Choose />
       <Appointment />
       {/* <Brands border_style={true} /> */}

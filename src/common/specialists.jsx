@@ -16,8 +16,8 @@ const choose = [
     ),
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor.
+        {/* Nam eget dui vel quam sodales <br />
+        semper quis porttitor tortor. */}
       </>
     ),
   },
@@ -33,8 +33,8 @@ const choose = [
     ),
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor.
+        {/* Nam eget dui vel quam sodales <br />
+        semper quis porttitor tortor. */}
       </>
     ),
   },
@@ -49,8 +49,8 @@ const choose = [
     ),
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor.
+        {/* Nam eget dui vel quam sodales <br />
+        semper quis porttitor tortor. */}
       </>
     ),
   },
@@ -65,8 +65,8 @@ const choose = [
     ),
     des: (
       <>
-        Nam eget dui vel quam sodales <br />
-        semper quis porttitor tortor.
+        {/* Nam eget dui vel quam sodales <br />
+        semper quis porttitor tortor. */}
       </>
     ),
   },
@@ -108,7 +108,7 @@ const Specialists = () => {
               </div>
             ))}
           </div>
-          <div className="row text-center">
+          {/* <div className="row text-center">
             <div className="col-lg-12">
               <div className="tp-choose-option">
                 <span>
@@ -119,7 +119,7 @@ const Specialists = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-  
 
 const AboutArea = () => {
   return (
@@ -15,39 +14,47 @@ const AboutArea = () => {
               >
                 <div className="tp-ab-img d-flex">
                   <div className="tp-ab-main-img p-relative">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
-                      src="/assets/img/about/about-bg-04.jpg"
-                    
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "15rem" }}
+                      alt="vserve"
+                      src="/assets/img/home_slider/12.jpg"
                     />
                     <div className="about__exprience tp-ab-counter">
-                      <h3 className="counter">
-
-                      </h3>
+                      <h3 className="counter">5+</h3>
                       <i>
                         Years of <br />
                         Experience
+                        
                       </i>
                     </div>
                   </div>
                   <div className="tp-ab-shape d-none d-md-block d-lg-none d-xl-block">
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "10rem" }}
+                      alt="vserve"
                       className="ab-shape-one"
-                      src="/assets/img/about/about-bg-05.jpg"
-                      
+                      src="/assets/img/home_slider/14.jpg"
                     />
-                    <Image quality={20} placeholder="image" width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '100%', height: 'auto' }}  alt="vserve"
+                    <Image
+                      quality={20}
+                      placeholder="image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "20rem" }}
+                      alt="vserve"
                       className="ab-shape-two"
-                      src="/assets/img/about/about-bg-06.jpg"
-                  
+                      src="/assets/img/home_slider/11.jpg"
                     />
                   </div>
                 </div>
@@ -60,21 +67,33 @@ const AboutArea = () => {
               >
                 <div className="tp-section">
                   <h3 className="tp-section__title ab-title mb-25">
-                    We’ll Ensure You Alwasy Get Best Results.
+                    Experience cannot be replaced.
                   </h3>
-                  <Link aria-label="Vserve" className="tp-section__link" href="#">
+                  {/* <Link aria-label="Vserve" className="tp-section__link" href="#">
                     Read our MIssion & Vission{" "}
                     <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+                  </Link> */}
+                  <h5 aria-label="Vserve" className="tp-section__h5" href="#">
+                    We have been in operations for 15 years.
+                    {/* <i className="fa-solid fa-arrow-right"></i> */}
+                  </h5>
+                  <h5 aria-label="Vserve" className="tp-section__h5" href="#">
+                    Our Vision: to be the Most Trusted Care Provider.
+                    {/* <i className="fa-solid fa-arrow-right"></i> */}
+                  </h5>
+                  <h5 aria-label="Vserve" className="tp-section__h5" href="#">
+                    Our Mission: to Empower People.
+                    {/* <i className="fa-solid fa-arrow-right"></i> */}
+                  </h5>
                   <p className=" mr-20 mb-40">
-                    Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
-                    ea commodo claritatem insitamconse quat.Exerci tation
-                    ullamcorper suscipit loborti excommodo habent claritatem
-                    insitamconse quat.Exerci tationlobortis nisl aliquip ex ea
-                    commodo habent claritatem insitamconse quat.
+                    We offer compassionate Home and Community Care for older
+                    people and people living with disability, Supported
+                    Independent Living in our properties across Sydney, and Plan
+                    Management and Support Coordination services to NDIS
+                    participants across Australia.
                   </p>
                 </div>
-                <div className="tp-about__info-list ab-check-list mb-55">
+                {/* <div className="tp-about__info-list ab-check-list mb-55">
                   <ul>
                     <li>
                       <i className="fa-solid fa-check"></i>Extramural Funding
@@ -91,7 +110,7 @@ const AboutArea = () => {
                       lectus
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="about-content__btn">
                   <Link aria-label="Vserve" href="/about" className="tp-btn">
                     About us

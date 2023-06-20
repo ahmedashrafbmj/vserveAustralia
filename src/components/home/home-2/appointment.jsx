@@ -5,8 +5,8 @@ const Appointment = () => {
   return (
     <>
       <section
-        className="appoinment-area grey-bg mb-50 tp-box-space ml-30 mr-30"
-        style={{ backgroundImage: `url("/assets/img/shape/shape-bg-08.png")` }}
+        className="appoinment-area mb-50 tp-box-space ml-30 mr-30"
+        // style={{ backgroundImage: `url("/assets/img/shape/shape-bg-08.png")` }}
       >
         <div className="container">
           <div className="row align-items-end">
@@ -17,9 +17,9 @@ const Appointment = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "100%", height: "100%" }}
                   alt="vserve"
-                  src="/assets/img/banner/appoinment-02.png"
+                  src="/assets/img/home_slider/7.jpg"
                 />
               </div>
             </div>

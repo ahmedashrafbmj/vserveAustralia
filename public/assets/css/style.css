@@ -8284,4 +8284,24 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--tp-text-1);
 }
 
+.octa {
+  width: 250px; height: 250px;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.octa img {
+  content:'';
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;    
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-size:cover;
+}
+
+
 /*# sourceMappingURL=style.css.map */
