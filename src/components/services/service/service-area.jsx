@@ -151,7 +151,7 @@ const ServiceArea = () => {
                   // <SwiperSlide key={item.id}>
                   <div
                     key={item.id}
-                    className=" col-4 tp-gallery__item p-relative mb-70"
+                    className="col-lg-4  col-md-6 col-sm-12 tp-gallery__item p-relative mb-70"
                   >
                     <div className="tp-gallery__img p-relative">
                       <Image

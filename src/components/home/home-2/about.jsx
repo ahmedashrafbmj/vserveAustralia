@@ -83,14 +83,14 @@ We care For You  <br />
 
                   {/* 
                    */}
-                  <div className="about-thumb-shape d-none d-md-block">
+                  <div className="about-thumb-shape d-none d-md-block" style={{left:"-50px"}}>
                     <Image
                       quality={10}
                       placeholder="image"
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: "40%", height: "auto" }}
+                      style={{ width: "40%", height: "auto" , }}
                       alt="vserve"
                       src={about_thumb}
                     />

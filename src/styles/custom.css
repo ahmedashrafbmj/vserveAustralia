@@ -1,6 +1,35 @@
 .appoint-thumb{
     position: relative;
-    width: 40rem;
+    width: 157%;
     background-color: transparent;
     z-index: -1;
+}
+.tp-gallery__item{
+    max-height: 50rem;
+}
+@media (max-width: 1025px) {
+    .appoint-thumb{   width: 100%;}
+    .tp-gallery__title {
+        font-size: 1rem;
+    }
+    .tp-gallery__content span {
+      font-size: 10px;
+    
+  }
+  .tp-gallery__item:hover .tp-gallery__content{
+  bottom: 2px;
+  }
+  }
+  
+  @media (max-width: 767px){
+  .tp-gallery__title {
+      font-size: 1rem;
+  }
+  .tp-gallery__content span {
+    font-size: 10px;
+  
+}
+.tp-gallery__item:hover .tp-gallery__content{
+bottom: 2px;
+}
 }
